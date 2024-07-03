@@ -16908,34 +16908,84 @@
 					(object State "$UNNAMED$126"
 					    quid       	"54D219F50010"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$127"
+					(object Decision "btnEditar!=null?"
 					    quid       	"54D21A900129")
-					(object State "$UNNAMED$128"
+					(object State "$UNNAMED$127"
 					    quid       	"54D21AA6037B"
 					    type       	"EndState")
-					(object State "$UNNAMED$129"
+					(object State "$UNNAMED$128"
 					    quid       	"54D21AEA008D"
 					    type       	"EndState")
 					(object ActivityState "mostrar form <EditProductosFrescos>"
 					    quid       	"54D21AF7011A")
-					(object Decision "$UNNAMED$130"
+					(object Decision "$UNNAMED$129"
 					    quid       	"54D21B23009D")
-					(object State "$UNNAMED$131"
+					(object State "$UNNAMED$130"
 					    quid       	"54D21B7002BF"
 					    type       	"EndState")
-					(object State "$UNNAMED$132"
+					(object State "$UNNAMED$131"
 					    quid       	"54D21B8D0252"
 					    type       	"EndState")
-					(object State "$UNNAMED$133"
+					(object State "$UNNAMED$132"
 					    quid       	"54D21BFE0158"
 					    type       	"EndState")
-					(object Decision "$UNNAMED$134"
-					    quid       	"54D21C14006E")
-					(object State "$UNNAMED$135"
+					(object State "$UNNAMED$133"
 					    quid       	"54D21C4A03D9"
 					    type       	"EndState")
-					(object State "$UNNAMED$136"
+					(object State "$UNNAMED$134"
 					    quid       	"54D21C500223"
+					    type       	"EndState")
+					(object Decision "btnProductosCongelados!=null?"
+					    quid       	"5B21F83C00FA")
+					(object State "$UNNAMED$135"
+					    quid       	"5B21F896006D"
+					    type       	"EndState")
+					(object State "$UNNAMED$136"
+					    quid       	"5B21F8C502CF"
+					    type       	"EndState")
+					(object ActivityState "mostrar form <ProductosCongelados>"
+					    quid       	"5B21F8CE02DE")
+					(object Decision "$UNNAMED$137"
+					    quid       	"5B21F8E9009C")
+					(object State "$UNNAMED$138"
+					    quid       	"5B21F98E02DE"
+					    type       	"EndState")
+					(object State "$UNNAMED$139"
+					    quid       	"5B21FA5E00DB"
+					    type       	"EndState")
+					(object ActivityState "mostrar form <EditProductosCongelados>"
+					    quid       	"5B21FA800232")
+					(object State "$UNNAMED$140"
+					    quid       	"5B21FAB10010"
+					    type       	"EndState")
+					(object Decision "$UNNAMED$141"
+					    quid       	"5B21FB0901C5")
+					(object State "$UNNAMED$142"
+					    quid       	"5B21FB490261"
+					    type       	"EndState")
+					(object State "$UNNAMED$143"
+					    quid       	"5B21FB96002F"
+					    type       	"EndState")
+					(object State "$UNNAMED$144"
+					    quid       	"5B21FC04009C"
+					    type       	"EndState")
+					(object State "$UNNAMED$145"
+					    quid       	"5B21FC200158"
+					    type       	"EndState")
+					(object Decision "btnBebidas!=null?"
+					    quid       	"5B21FC4B0242")
+					(object State "$UNNAMED$146"
+					    quid       	"5B21FC7B01A6"
+					    type       	"EndState")
+					(object State "$UNNAMED$147"
+					    quid       	"5B21FCC30167"
+					    type       	"EndState")
+					(object Decision "$UNNAMED$148"
+					    quid       	"5B21FCCB03A9")
+					(object ActivityState "mostrar form <Bebidas>"
+					    quid       	"5B21FCD402BF")
+					(object State "$UNNAMED$149"
+					    quid       	"5B21FD2D032C"
 					    type       	"EndState"))
 				    partitions 	(list Partitions
 					(object Partition "encargado de almacen"
@@ -17633,7 +17683,7 @@
 						quid       	"54D21A86034F"))
 					(object State_Transition
 					    quid       	"54D21AA000BC"
-					    supplier   	"$UNNAMED$127"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
 					    supplier_quidu 	"54D21A900129"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón EDITAR"
 					    client_quidu 	"54D2129902B0"
@@ -17646,7 +17696,7 @@
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
 					    
 					    supplier_quidu 	"54D2094502CF"
-					    client     	"$UNNAMED$127"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
 					    client_quidu 	"54D21A900129"
 					    Event      	(object Event "No"
 						quid       	"54D21AA30001")
@@ -17654,7 +17704,7 @@
 						quid       	"54D21AA30003"))
 					(object State_Transition
 					    quid       	"54D21AA900FA"
-					    supplier   	"$UNNAMED$128"
+					    supplier   	"$UNNAMED$127"
 					    supplier_quidu 	"54D21AA6037B"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
@@ -17667,7 +17717,7 @@
 					    label      	""
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
 					    supplier_quidu 	"54D211550197"
-					    client     	"$UNNAMED$127"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
 					    client_quidu 	"54D21A900129"
 					    Event      	(object Event "Si"
 						quid       	"54D21AB4006F")
@@ -17696,7 +17746,7 @@
 						quid       	"54D21AE70294"))
 					(object State_Transition
 					    quid       	"54D21AEC030E"
-					    supplier   	"$UNNAMED$129"
+					    supplier   	"$UNNAMED$128"
 					    supplier_quidu 	"54D21AEA008D"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
@@ -17717,7 +17767,7 @@
 						quid       	"54D21B0E0265"))
 					(object State_Transition
 					    quid       	"54D21B27038B"
-					    supplier   	"$UNNAMED$130"
+					    supplier   	"$UNNAMED$129"
 					    supplier_quidu 	"54D21B23009D"
 					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <EditProductosFrescos>"
 					    client_quidu 	"54D21AF7011A"
@@ -17727,7 +17777,7 @@
 					    quid       	"54D21B3B005E"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar boton CANCELAR"
 					    supplier_quidu 	"54D2150D03B9"
-					    client     	"$UNNAMED$130"
+					    client     	"$UNNAMED$129"
 					    client_quidu 	"54D21B23009D"
 					    sendEvent  	(object sendEvent
 						quid       	"54D21B3B0061"))
@@ -17735,7 +17785,7 @@
 					    quid       	"54D21B3D0139"
 					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón GUARDAR CAMBIOS"
 					    supplier_quidu 	"54D214ED007D"
-					    client     	"$UNNAMED$130"
+					    client     	"$UNNAMED$129"
 					    client_quidu 	"54D21B23009D"
 					    sendEvent  	(object sendEvent
 						quid       	"54D21B3D013C"))
@@ -17762,7 +17812,7 @@
 						quid       	"54D21B5F00EE"))
 					(object State_Transition
 					    quid       	"54D21B740148"
-					    supplier   	"$UNNAMED$131"
+					    supplier   	"$UNNAMED$130"
 					    supplier_quidu 	"54D21B7002BF"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "SE HA  CANCELADO LOS CAMBIOS"
@@ -17772,7 +17822,7 @@
 						quid       	"54D21B74014B"))
 					(object State_Transition
 					    quid       	"54D21B9100EB"
-					    supplier   	"$UNNAMED$132"
+					    supplier   	"$UNNAMED$131"
 					    supplier_quidu 	"54D21B8D0252"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
@@ -17827,7 +17877,7 @@
 						quid       	"54D21BFA013C"))
 					(object State_Transition
 					    quid       	"54D21C02031D"
-					    supplier   	"$UNNAMED$133"
+					    supplier   	"$UNNAMED$132"
 					    supplier_quidu 	"54D21BFE0158"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
@@ -17836,42 +17886,8 @@
 					    sendEvent  	(object sendEvent
 						quid       	"54D21C020320"))
 					(object State_Transition
-					    quid       	"54D21C17033C"
-					    label      	""
-					    supplier   	"$UNNAMED$134"
-					    supplier_quidu 	"54D21C14006E"
-					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::Actualizar BD en la tabla producto"
-					    client_quidu 	"54D216AC037B"
-					    Event      	(object Event "resultado != null?"
-						quid       	"54D21C17033D")
-					    sendEvent  	(object sendEvent
-						quid       	"54D21C17033F"))
-					(object State_Transition
-					    quid       	"54D21C38008D"
-					    label      	""
-					    supplier   	
-|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
-					    
-					    supplier_quidu 	"54D21690004E"
-					    client     	"$UNNAMED$134"
-					    client_quidu 	"54D21C14006E"
-					    Event      	(object Event "Si"
-						quid       	"54D21C38008E")
-					    sendEvent  	(object sendEvent
-						quid       	"54D21C380090"))
-					(object State_Transition
-					    quid       	"54D21C480223"
-					    supplier   	
-|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "NO SE PUDO GUARDAR LOS CAMBIOS "
-					    
-					    supplier_quidu 	"54D2160403D9"
-					    client     	"$UNNAMED$134"
-					    client_quidu 	"54D21C14006E"
-					    sendEvent  	(object sendEvent
-						quid       	"54D21C480226"))
-					(object State_Transition
 					    quid       	"54D21C4D010A"
-					    supplier   	"$UNNAMED$135"
+					    supplier   	"$UNNAMED$133"
 					    supplier_quidu 	"54D21C4A03D9"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "NO SE PUDO GUARDAR LOS CAMBIOS "
@@ -17881,14 +17897,605 @@
 						quid       	"54D21C4D010D"))
 					(object State_Transition
 					    quid       	"54D21C5B0214"
-					    supplier   	"$UNNAMED$136"
+					    supplier   	"$UNNAMED$134"
 					    supplier_quidu 	"54D21C500223"
 					    client     	
 |Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
 					    
 					    client_quidu 	"54D21690004E"
 					    sendEvent  	(object sendEvent
-						quid       	"54D21C5B0217")))
+						quid       	"54D21C5B0217"))
+					(object State_Transition
+					    quid       	"5B21F8400167"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnProductosCongelados!=null?"
+					    supplier_quidu 	"5B21F83C00FA"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón PRODUCTOS CONGELADOS"
+					    client_quidu 	"54D20F7C0291"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F840016A"))
+					(object State_Transition
+					    quid       	"5B21F8630000"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    supplier_quidu 	"54D2118801E5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnProductosCongelados!=null?"
+					    client_quidu 	"5B21F83C00FA"
+					    Event      	(object Event "No"
+						quid       	"5B21F8630001")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8630003"))
+					(object State_Transition
+					    quid       	"5B21F8990138"
+					    supplier   	"$UNNAMED$135"
+					    supplier_quidu 	"5B21F896006D"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    client_quidu 	"54D2118801E5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F899013B"))
+					(object State_Transition
+					    quid       	"5B21F8A1039A"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
+					    supplier_quidu 	"54D211550197"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnProductosCongelados!=null?"
+					    client_quidu 	"5B21F83C00FA"
+					    Event      	(object Event "Si"
+						quid       	"5B21F8A1039B")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8A1039D"))
+					(object State_Transition
+					    quid       	"5B21F8B50196"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    supplier_quidu 	"54D211AD0139"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
+					    client_quidu 	"54D211550197"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8B50199"))
+					(object State_Transition
+					    quid       	"5B21F8C0038A"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    supplier_quidu 	"54D2118801E5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    client_quidu 	"54D211AD0139"
+					    Event      	(object Event "No"
+						quid       	"5B21F8C0038B")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8C0038D"))
+					(object State_Transition
+					    quid       	"5B21F8C801E4"
+					    supplier   	"$UNNAMED$136"
+					    supplier_quidu 	"5B21F8C502CF"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    client_quidu 	"54D2118801E5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8C801E7"))
+					(object State_Transition
+					    quid       	"5B21F8E2004E"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <ProductosCongelados>"
+					    supplier_quidu 	"5B21F8CE02DE"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    client_quidu 	"54D211AD0139"
+					    Event      	(object Event "Si"
+						quid       	"5B21F8E2004F")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8E20051"))
+					(object State_Transition
+					    quid       	"5B21F8EF0196"
+					    supplier   	"$UNNAMED$137"
+					    supplier_quidu 	"5B21F8E9009C"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <ProductosCongelados>"
+					    client_quidu 	"5B21F8CE02DE"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F8EF0199"))
+					(object State_Transition
+					    quid       	"5B21F962034C"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón REGRESAR"
+					    supplier_quidu 	"54D212A3035C"
+					    client     	"$UNNAMED$137"
+					    client_quidu 	"5B21F8E9009C"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F962034F"))
+					(object State_Transition
+					    quid       	"5B21F96A0158"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón EDITAR"
+					    supplier_quidu 	"54D2129902B0"
+					    client     	"$UNNAMED$137"
+					    client_quidu 	"5B21F8E9009C"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F96A015B"))
+					(object State_Transition
+					    quid       	"5B21F988035B"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnRegresar!=null?"
+					    supplier_quidu 	"54D212CF0242"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón REGRESAR"
+					    client_quidu 	"54D212A3035C"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F988035E"))
+					(object State_Transition
+					    quid       	"5B21F9910129"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    supplier_quidu 	"54D2094502CF"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnRegresar!=null?"
+					    client_quidu 	"54D212CF0242"
+					    Event      	(object Event "No"
+						quid       	"5B21F991012A")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F991012C"))
+					(object State_Transition
+					    quid       	"5B21F99901B5"
+					    supplier   	"$UNNAMED$138"
+					    supplier_quidu 	"5B21F98E02DE"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    client_quidu 	"54D2094502CF"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F99901B8"))
+					(object State_Transition
+					    quid       	"5B21F9C20261"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <GestionInventario>"
+					    supplier_quidu 	"54D20986003F"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnRegresar!=null?"
+					    client_quidu 	"54D212CF0242"
+					    Event      	(object Event "Si"
+						quid       	"5B21F9C20262")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21F9C20264"))
+					(object State_Transition
+					    quid       	"5B21FA4A006D"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
+					    supplier_quidu 	"54D21A900129"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón EDITAR"
+					    client_quidu 	"54D2129902B0"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FA4A0070"))
+					(object State_Transition
+					    quid       	"5B21FA610000"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    supplier_quidu 	"54D2094502CF"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
+					    client_quidu 	"54D21A900129"
+					    Event      	(object Event "No"
+						quid       	"5B21FA610001")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FA610003"))
+					(object State_Transition
+					    quid       	"5B21FA660196"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
+					    supplier_quidu 	"54D211550197"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
+					    client_quidu 	"54D21A900129"
+					    Event      	(object Event "Si"
+						quid       	"5B21FA660197")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FA660199"))
+					(object State_Transition
+					    quid       	"5B21FA7A01A6"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    supplier_quidu 	"54D214600291"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
+					    client_quidu 	"54D211550197"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FA7A01A9"))
+					(object State_Transition
+					    quid       	"5B21FAA10252"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <EditProductosCongelados>"
+					    supplier_quidu 	"5B21FA800232"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    client_quidu 	"54D214600291"
+					    Event      	(object Event "Si"
+						quid       	"5B21FAA10253")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FAA10255"))
+					(object State_Transition
+					    quid       	"5B21FAB300EA"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    supplier_quidu 	"54D2118801E5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    client_quidu 	"54D214600291"
+					    Event      	(object Event "No"
+						quid       	"5B21FAB300EB")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FAB300ED"))
+					(object State_Transition
+					    quid       	"5B21FAB80177"
+					    supplier   	"$UNNAMED$140"
+					    supplier_quidu 	"5B21FAB10010"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    client_quidu 	"54D2118801E5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FAB8017A"))
+					(object State_Transition
+					    quid       	"5B21FB0D0187"
+					    supplier   	"$UNNAMED$141"
+					    supplier_quidu 	"5B21FB0901C5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <EditProductosCongelados>"
+					    client_quidu 	"5B21FA800232"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB0D018A"))
+					(object State_Transition
+					    quid       	"5B21FB4C01A6"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnCancelar!=null?"
+					    supplier_quidu 	"54D2151A011A"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar boton CANCELAR"
+					    client_quidu 	"54D2150D03B9"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB4C01A9"))
+					(object State_Transition
+					    quid       	"5B21FB520196"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar boton CANCELAR"
+					    supplier_quidu 	"54D2150D03B9"
+					    client     	"$UNNAMED$141"
+					    client_quidu 	"5B21FB0901C5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB520199"))
+					(object State_Transition
+					    quid       	"5B21FB55009C"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón GUARDAR CAMBIOS"
+					    supplier_quidu 	"54D214ED007D"
+					    client     	"$UNNAMED$141"
+					    client_quidu 	"5B21FB0901C5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB55009F"))
+					(object State_Transition
+					    quid       	"5B21FB580271"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "SE HA  CANCELADO LOS CAMBIOS"
+					    
+					    supplier_quidu 	"54D2159E00FA"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnCancelar!=null?"
+					    client_quidu 	"54D2151A011A"
+					    Event      	(object Event "Si"
+						quid       	"5B21FB580272")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB580274"))
+					(object State_Transition
+					    quid       	"5B21FB6001E4"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    supplier_quidu 	"54D2094502CF"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnCancelar!=null?"
+					    client_quidu 	"54D2151A011A"
+					    Event      	(object Event "No"
+						quid       	"5B21FB6001E5")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB6001E7"))
+					(object State_Transition
+					    quid       	"5B21FB680187"
+					    supplier   	"$UNNAMED$142"
+					    supplier_quidu 	"5B21FB490261"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    client_quidu 	"54D2094502CF"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB68018A"))
+					(object State_Transition
+					    quid       	"5B21FB7B0119"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnGuardar!=null?"
+					    supplier_quidu 	"54D215EF0204"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón GUARDAR CAMBIOS"
+					    client_quidu 	"54D214ED007D"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB7B011C"))
+					(object State_Transition
+					    quid       	"5B21FB86032C"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::Actualizar BD en la tabla producto"
+					    supplier_quidu 	"54D216AC037B"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnGuardar!=null?"
+					    client_quidu 	"54D215EF0204"
+					    Event      	(object Event "Si"
+						quid       	"5B21FB86032D")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB86032F"))
+					(object State_Transition
+					    quid       	"5B21FB91038A"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    supplier_quidu 	"54D2118801E5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnGuardar!=null?"
+					    client_quidu 	"54D215EF0204"
+					    Event      	(object Event "No"
+						quid       	"5B21FB91038B")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB91038D"))
+					(object State_Transition
+					    quid       	"5B21FB99030D"
+					    supplier   	"$UNNAMED$143"
+					    supplier_quidu 	"5B21FB96002F"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    client_quidu 	"54D2118801E5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FB990310"))
+					(object State_Transition
+					    quid       	"5B21FBC6004E"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    supplier_quidu 	"54D214600291"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::Actualizar BD en la tabla producto"
+					    client_quidu 	"54D216AC037B"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FBC60051"))
+					(object State_Transition
+					    quid       	"5B21FBC80213"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
+					    
+					    supplier_quidu 	"54D21690004E"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    client_quidu 	"54D214600291"
+					    Event      	(object Event "Si"
+						quid       	"5B21FBC80214")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FBC80216"))
+					(object State_Transition
+					    quid       	"5B21FBCD00FA"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "NO SE PUDO GUARDAR LOS CAMBIOS "
+					    
+					    supplier_quidu 	"54D2160403D9"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    client_quidu 	"54D214600291"
+					    Event      	(object Event "No"
+						quid       	"5B21FBCD00FB")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FBCD00FD"))
+					(object State_Transition
+					    quid       	"5B21FBE302CF"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    supplier_quidu 	"54D214600291"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::Actualizar BD en la tabla producto"
+					    client_quidu 	"54D216AC037B"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FBE302D2"))
+					(object State_Transition
+					    quid       	"5B21FBFE008D"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
+					    
+					    supplier_quidu 	"54D21690004E"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    client_quidu 	"54D214600291"
+					    Event      	(object Event "Si"
+						quid       	"5B21FBFE008E")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FBFE0090"))
+					(object State_Transition
+					    quid       	"5B21FC070010"
+					    supplier   	"$UNNAMED$144"
+					    supplier_quidu 	"5B21FC04009C"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
+					    
+					    client_quidu 	"54D21690004E"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC070013"))
+					(object State_Transition
+					    quid       	"5B21FC1C007D"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "NO SE PUDO GUARDAR LOS CAMBIOS "
+					    
+					    supplier_quidu 	"54D2160403D9"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado != null?"
+					    client_quidu 	"54D214600291"
+					    Event      	(object Event "No"
+						quid       	"5B21FC1C007E")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC1C0080"))
+					(object State_Transition
+					    quid       	"5B21FC2302FE"
+					    supplier   	"$UNNAMED$145"
+					    supplier_quidu 	"5B21FC200158"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "NO SE PUDO GUARDAR LOS CAMBIOS "
+					    
+					    client_quidu 	"54D2160403D9"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC230301"))
+					(object State_Transition
+					    quid       	"5B21FC62032C"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnBebidas!=null?"
+					    supplier_quidu 	"5B21FC4B0242"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón BEBIDAS"
+					    client_quidu 	"54D20F890233"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC62032F"))
+					(object State_Transition
+					    quid       	"5B21FC8101D5"
+					    supplier   	"$UNNAMED$146"
+					    supplier_quidu 	"5B21FC7B01A6"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    client_quidu 	"54D2118801E5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC8101D8"))
+					(object State_Transition
+					    quid       	"5B21FC830232"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
+					    supplier_quidu 	"54D211550197"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnBebidas!=null?"
+					    client_quidu 	"5B21FC4B0242"
+					    Event      	(object Event "Si"
+						quid       	"5B21FC830233")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC830235"))
+					(object State_Transition
+					    quid       	"5B21FC85039A"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    supplier_quidu 	"54D2118801E5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnBebidas!=null?"
+					    client_quidu 	"5B21FC4B0242"
+					    Event      	(object Event "No"
+						quid       	"5B21FC85039B")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FC85039D"))
+					(object State_Transition
+					    quid       	"5B21FCA100CB"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    supplier_quidu 	"54D211AD0139"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::consulta BD en la tabla producto"
+					    client_quidu 	"54D211550197"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FCA100CE"))
+					(object State_Transition
+					    quid       	"5B21FCB0009C"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    supplier_quidu 	"54D2118801E5"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    client_quidu 	"54D211AD0139"
+					    Event      	(object Event "No"
+						quid       	"5B21FCB0009D")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FCB0009F"))
+					(object State_Transition
+					    quid       	"5B21FCB6009C"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <ProductosCongelados>"
+					    supplier_quidu 	"5B21F8CE02DE"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    client_quidu 	"54D211AD0139"
+					    Event      	(object Event "Si"
+						quid       	"5B21FCB6009D")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FCB6009F"))
+					(object State_Transition
+					    quid       	"5B21FCC501E4"
+					    supplier   	"$UNNAMED$147"
+					    supplier_quidu 	"5B21FCC30167"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+					    
+					    client_quidu 	"54D2118801E5"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FCC501E7"))
+					(object State_Transition
+					    quid       	"5B21FCE000CB"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <Bebidas>"
+					    supplier_quidu 	"5B21FCD402BF"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::resultado!=null?"
+					    client_quidu 	"54D211AD0139"
+					    Event      	(object Event "Si"
+						quid       	"5B21FCE000CC")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FCE000CE"))
+					(object State_Transition
+					    quid       	"5B21FCE902CF"
+					    supplier   	"$UNNAMED$148"
+					    supplier_quidu 	"5B21FCCB03A9"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <Bebidas>"
+					    client_quidu 	"5B21FCD402BF"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FCE902D2"))
+					(object State_Transition
+					    quid       	"5B21FD030232"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnRegresar!=null?"
+					    supplier_quidu 	"54D212CF0242"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón REGRESAR"
+					    client_quidu 	"54D212A3035C"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FD030235"))
+					(object State_Transition
+					    quid       	"5B21FD11032C"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnEditar!=null?"
+					    supplier_quidu 	"54D21A900129"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón EDITAR"
+					    client_quidu 	"54D2129902B0"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FD11032F"))
+					(object State_Transition
+					    quid       	"5B21FD160261"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón REGRESAR"
+					    supplier_quidu 	"54D212A3035C"
+					    client     	"$UNNAMED$148"
+					    client_quidu 	"5B21FCCB03A9"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FD160264"))
+					(object State_Transition
+					    quid       	"5B21FD1B0232"
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::validar botón EDITAR"
+					    supplier_quidu 	"54D2129902B0"
+					    client     	"$UNNAMED$148"
+					    client_quidu 	"5B21FCCB03A9"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FD1B0235"))
+					(object State_Transition
+					    quid       	"5B21FD330167"
+					    supplier   	"$UNNAMED$149"
+					    supplier_quidu 	"5B21FD2D032C"
+					    client     	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    client_quidu 	"54D2094502CF"
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FD33016A"))
+					(object State_Transition
+					    quid       	"5B21FD3501D5"
+					    label      	""
+					    supplier   	
+|Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+					    
+					    supplier_quidu 	"54D2094502CF"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnRegresar!=null?"
+					    client_quidu 	"54D212CF0242"
+					    Event      	(object Event "No"
+						quid       	"5B21FD3501D6")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FD3501D8"))
+					(object State_Transition
+					    quid       	"5B21FDA400CB"
+					    label      	""
+					    supplier   	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::mostrar form <GestionInventario>"
+					    supplier_quidu 	"54D20986003F"
+					    client     	"Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado::State/Activity Model4::btnRegresar!=null?"
+					    client_quidu 	"54D212CF0242"
+					    Event      	(object Event "Si"
+						quid       	"5B21FDA400CC")
+					    sendEvent  	(object sendEvent
+						quid       	"5B21FDA400CE")))
 				    objectflows 	(list objectflow_list)
 				    statediagrams 	(list StateDiagrams
 					(object ActivityDiagram "BAD emitir informe"
@@ -17897,8 +18504,8 @@
 					    zoom       	55
 					    max_height 	28350
 					    max_width  	21600
-					    origin_x   	5828
-					    origin_y   	3380
+					    origin_x   	2228
+					    origin_y   	1199
 					    items      	(list diagram_item_list
 						(object Swimlane "encargado de almacen" @731
 						    line_color 	3342489
@@ -18326,7 +18933,7 @@
 						    x_offset   	FALSE)
 						(object ActivityStateView "validar botón BEBIDAS" @756
 						    Parent_View 	@734
-						    location   	(8752, 1360)
+						    location   	(8416, 1392)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -18338,7 +18945,7 @@
 							default_color 	TRUE)
 						    label      	(object ItemLabel
 							Parent_View 	@756
-							location   	(8752, 1362)
+							location   	(8416, 1394)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -18359,7 +18966,7 @@
 						    supplier   	@756
 						    vertices   	(list Points
 							(5499, 560)
-							(8598, 1322))
+							(8266, 1349))
 						    line_style 	0
 						    x_offset   	FALSE)
 						(object ActivityStateView "validar botón PRODUCTOS DE DESPENSA Y CONDIMENTOS" @758
@@ -20988,15 +21595,44 @@
 							(4400, 2748))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$127" @904
+						(object DecisionView "btnEditar!=null?" @904
 						    Parent_View 	@734
 						    location   	(4560, 2960)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @905
+							Parent_View 	@904
+							location   	(4615, 2879)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	300
+							justify    	1
+							label      	"btnEditar!=null?"
+							pctDist    	0.819989
+							height     	28
+							orientation 	0)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    fill_color 	13434879
 						    quidu      	"54D21A900129"
 						    autoResize 	TRUE)
-						(object TransView "" @905
+						(object TransView "" @906
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21AA000BC"
@@ -21007,7 +21643,7 @@
 							(4560, 2923))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @906
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @907
 						    Parent_View 	@734
 						    location   	(5200, 3248)
 						    font       	(object Font
@@ -21020,7 +21656,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@906
+							Parent_View 	@907
 							location   	(5200, 3247)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21037,7 +21673,7 @@
 						    width      	714
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @907
+						(object TransView "" @908
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21047,8 +21683,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @908
-							Parent_View 	@907
+						    label      	(object SegLabel @909
+							Parent_View 	@908
 							location   	(4886, 3039)
 							font       	(object Font
 							    size       	9
@@ -21071,31 +21707,31 @@
 						    line_color 	3342489
 						    quidu      	"54D21AA30000"
 						    client     	@904
-						    supplier   	@906
+						    supplier   	@907
 						    vertices   	(list Points
 							(4635, 2960)
 							(5097, 3196))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$128" @909
+						(object StateView "EndState" "$UNNAMED$127" @910
 						    Parent_View 	@734
 						    location   	(5248, 3488)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"54D21AA6037B"
 						    autoResize 	TRUE)
-						(object TransView "" @910
+						(object TransView "" @911
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21AA900FA"
-						    client     	@906
-						    supplier   	@909
+						    client     	@907
+						    supplier   	@910
 						    vertices   	(list Points
 							(5210, 3301)
 							(5239, 3446))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "consulta BD en la tabla producto" @911
+						(object ActivityStateView "consulta BD en la tabla producto" @912
 						    Parent_View 	@734
 						    location   	(4576, 3264)
 						    font       	(object Font
@@ -21108,7 +21744,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@911
+							Parent_View 	@912
 							location   	(4576, 3263)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21123,7 +21759,7 @@
 						    width      	428
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @912
+						(object TransView "" @913
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21133,8 +21769,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @913
-							Parent_View 	@912
+						    label      	(object SegLabel @914
+							Parent_View 	@913
 							location   	(4611, 3102)
 							font       	(object Font
 							    size       	9
@@ -21157,13 +21793,13 @@
 						    line_color 	3342489
 						    quidu      	"54D21AB4006E"
 						    client     	@904
-						    supplier   	@911
+						    supplier   	@912
 						    vertices   	(list Points
 							(4560, 2997)
 							(4572, 3211))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "resultado != null?" @914
+						(object DecisionView "resultado != null?" @915
 						    Parent_View 	@734
 						    location   	(4576, 3488)
 						    font       	(object Font
@@ -21175,8 +21811,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @915
-							Parent_View 	@914
+						    label      	(object SegLabel @916
+							Parent_View 	@915
 							location   	(4614, 3364)
 							font       	(object Font
 							    size       	9
@@ -21200,18 +21836,18 @@
 						    fill_color 	13434879
 						    quidu      	"54D214600291"
 						    autoResize 	TRUE)
-						(object TransView "" @916
+						(object TransView "" @917
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21ACD008D"
-						    client     	@911
-						    supplier   	@914
+						    client     	@912
+						    supplier   	@915
 						    vertices   	(list Points
 							(4576, 3317)
 							(4576, 3451))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @917
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @918
 						    Parent_View 	@734
 						    location   	(5120, 3696)
 						    font       	(object Font
@@ -21224,8 +21860,8 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@917
-							location   	(5120, 3695)
+							Parent_View 	@918
+							location   	(5120, 3698)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -21241,7 +21877,7 @@
 						    width      	758
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @918
+						(object TransView "" @919
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21251,8 +21887,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @919
-							Parent_View 	@918
+						    label      	(object SegLabel @920
+							Parent_View 	@919
 							location   	(4845, 3526)
 							font       	(object Font
 							    size       	9
@@ -21274,32 +21910,32 @@
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21AE70291"
-						    client     	@914
-						    supplier   	@917
+						    client     	@915
+						    supplier   	@918
 						    vertices   	(list Points
 							(4651, 3488)
 							(5002, 3643))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$129" @920
+						(object StateView "EndState" "$UNNAMED$128" @921
 						    Parent_View 	@734
 						    location   	(5120, 3920)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"54D21AEA008D"
 						    autoResize 	TRUE)
-						(object TransView "" @921
+						(object TransView "" @922
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21AEC030E"
-						    client     	@917
-						    supplier   	@920
+						    client     	@918
+						    supplier   	@921
 						    vertices   	(list Points
 							(5120, 3749)
 							(5120, 3878))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar form <EditProductosFrescos>" @922
+						(object ActivityStateView "mostrar form <EditProductosFrescos>" @923
 						    Parent_View 	@734
 						    location   	(4336, 3680)
 						    font       	(object Font
@@ -21312,7 +21948,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@922
+							Parent_View 	@923
 							location   	(4336, 3679)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21327,7 +21963,7 @@
 						    width      	532
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @923
+						(object TransView "" @924
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21337,8 +21973,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @924
-							Parent_View 	@923
+						    label      	(object SegLabel @925
+							Parent_View 	@924
 							location   	(4384, 3522)
 							font       	(object Font
 							    size       	9
@@ -21360,14 +21996,14 @@
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B0E0262"
-						    client     	@914
-						    supplier   	@922
+						    client     	@915
+						    supplier   	@923
 						    vertices   	(list Points
 							(4501, 3488)
 							(4380, 3628))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$130" @925
+						(object DecisionView "$UNNAMED$129" @926
 						    Parent_View 	@734
 						    location   	(4352, 3888)
 						    icon_style 	"Icon"
@@ -21375,18 +22011,18 @@
 						    fill_color 	13434879
 						    quidu      	"54D21B23009D"
 						    autoResize 	TRUE)
-						(object TransView "" @926
+						(object TransView "" @927
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B27038B"
-						    client     	@922
-						    supplier   	@925
+						    client     	@923
+						    supplier   	@926
 						    vertices   	(list Points
 							(4340, 3732)
 							(4352, 3851))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "validar boton CANCELAR" @927
+						(object ActivityStateView "validar boton CANCELAR" @928
 						    Parent_View 	@734
 						    location   	(4080, 4160)
 						    font       	(object Font
@@ -21399,7 +22035,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@927
+							Parent_View 	@928
 							location   	(4080, 4159)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21413,18 +22049,18 @@
 						    quidu      	"54D2150D03B9"
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @928
+						(object TransView "" @929
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B3B005E"
-						    client     	@925
-						    supplier   	@927
+						    client     	@926
+						    supplier   	@928
 						    vertices   	(list Points
 							(4277, 3888)
 							(4117, 4107))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "validar botón GUARDAR CAMBIOS" @929
+						(object ActivityStateView "validar botón GUARDAR CAMBIOS" @930
 						    Parent_View 	@734
 						    location   	(4880, 4160)
 						    font       	(object Font
@@ -21437,8 +22073,8 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@929
-							location   	(4880, 4159)
+							Parent_View 	@930
+							location   	(4880, 4162)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -21452,18 +22088,18 @@
 						    width      	494
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @930
+						(object TransView "" @931
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B3D0139"
-						    client     	@925
-						    supplier   	@929
+						    client     	@926
+						    supplier   	@930
 						    vertices   	(list Points
 							(4427, 3888)
 							(4793, 4108))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "btnCancelar!=null?" @931
+						(object DecisionView "btnCancelar!=null?" @932
 						    Parent_View 	@734
 						    location   	(4064, 4384)
 						    font       	(object Font
@@ -21475,8 +22111,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @932
-							Parent_View 	@931
+						    label      	(object SegLabel @933
+							Parent_View 	@932
 							location   	(4091, 4258)
 							font       	(object Font
 							    size       	9
@@ -21500,18 +22136,18 @@
 						    fill_color 	13434879
 						    quidu      	"54D2151A011A"
 						    autoResize 	TRUE)
-						(object TransView "" @933
+						(object TransView "" @934
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B530158"
-						    client     	@927
-						    supplier   	@931
+						    client     	@928
+						    supplier   	@932
 						    vertices   	(list Points
 							(4076, 4213)
 							(4064, 4347))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"SE HA  CANCELADO LOS CAMBIOS\"" @934
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"SE HA  CANCELADO LOS CAMBIOS\"" @935
 						    Parent_View 	@734
 						    location   	(4016, 4624)
 						    font       	(object Font
@@ -21524,7 +22160,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@934
+							Parent_View 	@935
 							location   	(4016, 4623)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21541,7 +22177,7 @@
 						    width      	788
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @935
+						(object TransView "" @936
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21551,8 +22187,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @936
-							Parent_View 	@935
+						    label      	(object SegLabel @937
+							Parent_View 	@936
 							location   	(4090, 4507)
 							font       	(object Font
 							    size       	9
@@ -21574,32 +22210,32 @@
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B5F00EB"
-						    client     	@931
-						    supplier   	@934
+						    client     	@932
+						    supplier   	@935
 						    vertices   	(list Points
 							(4064, 4421)
 							(4028, 4571))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$131" @937
+						(object StateView "EndState" "$UNNAMED$130" @938
 						    Parent_View 	@734
 						    location   	(4016, 4832)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"54D21B7002BF"
 						    autoResize 	TRUE)
-						(object TransView "" @938
+						(object TransView "" @939
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B740148"
-						    client     	@934
-						    supplier   	@937
+						    client     	@935
+						    supplier   	@938
 						    vertices   	(list Points
 							(4016, 4677)
 							(4016, 4790))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @939
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @940
 						    Parent_View 	@734
 						    location   	(4528, 4848)
 						    font       	(object Font
@@ -21612,7 +22248,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@939
+							Parent_View 	@940
 							location   	(4528, 4847)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21629,7 +22265,7 @@
 						    width      	714
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @940
+						(object TransView "" @941
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21639,8 +22275,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @941
-							Parent_View 	@940
+						    label      	(object SegLabel @942
+							Parent_View 	@941
 							location   	(4499, 4422)
 							font       	(object Font
 							    size       	9
@@ -21662,33 +22298,33 @@
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B95003F"
-						    client     	@931
-						    supplier   	@939
+						    client     	@932
+						    supplier   	@940
 						    vertices   	(list Points
 							(4139, 4384)
 							(4527, 4474)
 							(4527, 4795))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$132" @942
+						(object StateView "EndState" "$UNNAMED$131" @943
 						    Parent_View 	@734
 						    location   	(4528, 5056)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"54D21B8D0252"
 						    autoResize 	TRUE)
-						(object TransView "" @943
+						(object TransView "" @944
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21B9100EB"
-						    client     	@939
-						    supplier   	@942
+						    client     	@940
+						    supplier   	@943
 						    vertices   	(list Points
 							(4528, 4901)
 							(4528, 5014))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "btnGuardar!=null?" @944
+						(object DecisionView "btnGuardar!=null?" @945
 						    Parent_View 	@734
 						    location   	(4992, 4368)
 						    font       	(object Font
@@ -21700,8 +22336,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @945
-							Parent_View 	@944
+						    label      	(object SegLabel @946
+							Parent_View 	@945
 							location   	(5032, 4241)
 							font       	(object Font
 							    size       	9
@@ -21725,18 +22361,18 @@
 						    fill_color 	13434879
 						    quidu      	"54D215EF0204"
 						    autoResize 	TRUE)
-						(object TransView "" @946
+						(object TransView "" @947
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21BA60129"
-						    client     	@929
-						    supplier   	@944
+						    client     	@930
+						    supplier   	@945
 						    vertices   	(list Points
 							(4908, 4213)
 							(4992, 4331))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "Actualizar BD en la tabla producto" @947
+						(object ActivityStateView "Actualizar BD en la tabla producto" @948
 						    Parent_View 	@734
 						    location   	(4992, 4672)
 						    font       	(object Font
@@ -21749,7 +22385,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@947
+							Parent_View 	@948
 							location   	(4992, 4671)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21764,7 +22400,7 @@
 						    width      	428
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @948
+						(object TransView "" @949
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21774,8 +22410,8 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @949
-							Parent_View 	@948
+						    label      	(object SegLabel @950
+							Parent_View 	@949
 							location   	(5037, 4513)
 							font       	(object Font
 							    size       	9
@@ -21797,16 +22433,16 @@
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21BEA038B"
-						    client     	@944
-						    supplier   	@947
+						    client     	@945
+						    supplier   	@948
 						    vertices   	(list Points
 							(4992, 4405)
 							(4992, 4620))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @950
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @951
 						    Parent_View 	@734
-						    location   	(5520, 4480)
+						    location   	(5488, 4480)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21817,8 +22453,8 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@950
-							location   	(5520, 4479)
+							Parent_View 	@951
+							location   	(5488, 4482)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -21834,7 +22470,7 @@
 						    width      	758
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @951
+						(object TransView "" @952
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21844,9 +22480,9 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @952
-							Parent_View 	@951
-							location   	(5198, 4355)
+						    label      	(object SegLabel @953
+							Parent_View 	@952
+							location   	(5192, 4356)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -21867,80 +22503,32 @@
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21BFA0139"
-						    client     	@944
-						    supplier   	@950
+						    client     	@945
+						    supplier   	@951
 						    vertices   	(list Points
 							(5067, 4368)
-							(5309, 4428))
+							(5292, 4428))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$133" @953
+						(object StateView "EndState" "$UNNAMED$132" @954
 						    Parent_View 	@734
-						    location   	(5520, 4672)
+						    location   	(5488, 4656)
 						    icon_style 	"Icon"
 						    line_color 	3342489
 						    quidu      	"54D21BFE0158"
 						    autoResize 	TRUE)
-						(object TransView "" @954
+						(object TransView "" @955
 						    stereotype 	TRUE
 						    line_color 	3342489
 						    quidu      	"54D21C02031D"
-						    client     	@950
-						    supplier   	@953
+						    client     	@951
+						    supplier   	@954
 						    vertices   	(list Points
-							(5520, 4533)
-							(5520, 4630))
+							(5488, 4533)
+							(5488, 4614))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object DecisionView "$UNNAMED$134" @955
-						    Parent_View 	@734
-						    location   	(4992, 4944)
-						    icon_style 	"Icon"
-						    line_color 	3342489
-						    fill_color 	13434879
-						    quidu      	"54D21C14006E"
-						    autoResize 	TRUE)
-						(object TransView "" @956
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    label      	(object SegLabel @957
-							Parent_View 	@956
-							location   	(5134, 4807)
-							font       	(object Font
-							    size       	9
-							    face       	"Arial"
-							    bold       	FALSE
-							    italics    	FALSE
-							    underline  	FALSE
-							    strike     	FALSE
-							    color      	0
-							    default_color 	TRUE)
-							anchor_loc 	1
-							nlines     	1
-							max_width  	450
-							justify    	0
-							label      	"resultado != null?"
-							pctDist    	0.449594
-							height     	142
-							orientation 	0)
-						    stereotype 	TRUE
-						    line_color 	3342489
-						    quidu      	"54D21C17033C"
-						    client     	@947
-						    supplier   	@955
-						    vertices   	(list Points
-							(4992, 4725)
-							(4992, 4907))
-						    line_style 	0
-						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"CAMBIOS GUARDADOS SATISFACTORIAMENTE\"" @958
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"CAMBIOS GUARDADOS SATISFACTORIAMENTE\"" @956
 						    Parent_View 	@734
 						    location   	(4528, 5296)
 						    font       	(object Font
@@ -21953,7 +22541,7 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@958
+							Parent_View 	@956
 							location   	(4528, 5295)
 							fill_color 	13434879
 							anchor_loc 	1
@@ -21970,7 +22558,9 @@
 						    width      	950
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @959
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"NO SE PUDO GUARDAR LOS CAMBIOS \"" @957
+						    Parent_View 	@734
+						    location   	(5456, 5184)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -21980,9 +22570,303 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object SegLabel @960
-							Parent_View 	@959
-							location   	(4782, 5127)
+						    label      	(object ItemLabel
+							Parent_View 	@957
+							location   	(5456, 5186)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	690
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "NO SE PUDO GUARDAR LOS CAMBIOS "
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2160403D9"
+						    width      	796
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object StateView "EndState" "$UNNAMED$133" @958
+						    Parent_View 	@734
+						    location   	(5472, 5408)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"54D21C4A03D9"
+						    autoResize 	TRUE)
+						(object TransView "" @959
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"54D21C4D010A"
+						    client     	@957
+						    supplier   	@958
+						    vertices   	(list Points
+							(5459, 5236)
+							(5469, 5366))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$134" @960
+						    Parent_View 	@734
+						    location   	(4528, 5648)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"54D21C500223"
+						    autoResize 	TRUE)
+						(object TransView "" @961
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"54D21C5B0214"
+						    client     	@956
+						    supplier   	@960
+						    vertices   	(list Points
+							(4528, 5349)
+							(4528, 5606))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object NoteView @962
+						    Parent_View 	@734
+						    location   	(4224, 5488)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@962
+							location   	(4086, 5428)
+							fill_color 	13434879
+							nlines     	2
+							max_width  	240
+							justify    	1
+							label      	"click en btnAceptar")
+						    line_color 	3342489
+						    fill_color 	13434879
+						    width      	300
+						    height     	132)
+						(object AttachView "" @963
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    client     	@962
+						    supplier   	@961
+						    vertices   	(list Points
+							(4374, 5482)
+							(4528, 5477))
+						    line_style 	0)
+						(object NoteView @964
+						    Parent_View 	@734
+						    location   	(1936, 5520)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@964
+							location   	(1798, 5460)
+							fill_color 	13434879
+							nlines     	2
+							max_width  	240
+							justify    	1
+							label      	"click en btnAceptar")
+						    line_color 	3342489
+						    fill_color 	13434879
+						    width      	300
+						    height     	132)
+						(object AttachView "" @965
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    client     	@964
+						    supplier   	@863
+						    vertices   	(list Points
+							(2086, 5514)
+							(2295, 5509))
+						    line_style 	0)
+						(object DecisionView "btnProductosCongelados!=null?" @966
+						    Parent_View 	@734
+						    location   	(6496, 1680)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @967
+							Parent_View 	@966
+							location   	(5928, 1501)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	558
+							justify    	1
+							label      	"btnProductosCongelados!=null?"
+							pctDist    	-6.379182
+							height     	160
+							orientation 	1)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21F83C00FA"
+						    autoResize 	TRUE)
+						(object TransView "" @968
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8400167"
+						    client     	@754
+						    supplier   	@966
+						    vertices   	(list Points
+							(6482, 1429)
+							(6496, 1643))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @969
+						    Parent_View 	@734
+						    location   	(7040, 1920)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@969
+							location   	(7040, 1922)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	652
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2118801E5"
+						    width      	758
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @970
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @971
+							Parent_View 	@970
+							location   	(6775, 1735)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8630000"
+						    client     	@966
+						    supplier   	@969
+						    vertices   	(list Points
+							(6571, 1680)
+							(6938, 1868))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$135" @972
+						    Parent_View 	@734
+						    location   	(7040, 2160)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21F896006D"
+						    autoResize 	TRUE)
+						(object TransView "" @973
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8990138"
+						    client     	@969
+						    supplier   	@972
+						    vertices   	(list Points
+							(7040, 1973)
+							(7040, 2118))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "consulta BD en la tabla producto" @974
+						    Parent_View 	@734
+						    location   	(6096, 1952)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@974
+							location   	(6096, 1954)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	322
+							justify    	0
+							label      	"consulta BD en la tabla producto")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D211550197"
+						    width      	428
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @975
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @976
+							Parent_View 	@975
+							location   	(6319, 1824)
 							font       	(object Font
 							    size       	9
 							    face       	"Arial"
@@ -22002,17 +22886,65 @@
 							orientation 	0)
 						    stereotype 	TRUE
 						    line_color 	3342489
-						    quidu      	"54D21C38008D"
-						    client     	@955
-						    supplier   	@958
+						    quidu      	"5B21F8A1039A"
+						    client     	@966
+						    supplier   	@974
 						    vertices   	(list Points
-							(4917, 4944)
-							(4585, 5244))
+							(6421, 1680)
+							(6158, 1899))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object ActivityStateView "mostrar panel <mensajeSistema> \"NO SE PUDO GUARDAR LOS CAMBIOS \"" @961
+						(object DecisionView "resultado!=null?" @977
 						    Parent_View 	@734
-						    location   	(5504, 5216)
+						    location   	(6032, 2176)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @978
+							Parent_View 	@977
+							location   	(6102, 2064)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	2
+							max_width  	300
+							justify    	1
+							label      	"resultado!=null?"
+							pctDist    	0.811553
+							height     	64
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D211AD0139"
+						    autoResize 	TRUE)
+						(object TransView "" @979
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8B50196"
+						    client     	@974
+						    supplier   	@977
+						    vertices   	(list Points
+							(6080, 2004)
+							(6032, 2139))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @980
+						    Parent_View 	@734
+						    location   	(5680, 2432)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -22023,8 +22955,1668 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@961
-							location   	(5504, 5215)
+							Parent_View 	@980
+							location   	(5680, 2434)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	652
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2118801E5"
+						    width      	758
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @981
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @982
+							Parent_View 	@981
+							location   	(5877, 2310)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8C0038A"
+						    client     	@977
+						    supplier   	@980
+						    vertices   	(list Points
+							(5957, 2176)
+							(5736, 2379))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$136" @983
+						    Parent_View 	@734
+						    location   	(5680, 2672)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21F8C502CF"
+						    autoResize 	TRUE)
+						(object TransView "" @984
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8C801E4"
+						    client     	@980
+						    supplier   	@983
+						    vertices   	(list Points
+							(5680, 2485)
+							(5680, 2630))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar form <ProductosCongelados>" @985
+						    Parent_View 	@734
+						    location   	(6464, 2432)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@985
+							location   	(6464, 2434)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	440
+							justify    	0
+							label      	"mostrar form <ProductosCongelados>")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21F8CE02DE"
+						    width      	546
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @986
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @987
+							Parent_View 	@986
+							location   	(6275, 2241)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8E2004E"
+						    client     	@977
+						    supplier   	@985
+						    vertices   	(list Points
+							(6107, 2176)
+							(6391, 2379))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "$UNNAMED$137" @988
+						    Parent_View 	@734
+						    location   	(6496, 2624)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21F8E9009C"
+						    autoResize 	TRUE)
+						(object TransView "" @989
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F8EF0196"
+						    client     	@985
+						    supplier   	@988
+						    vertices   	(list Points
+							(6472, 2485)
+							(6496, 2587))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "validar botón REGRESAR" @990
+						    Parent_View 	@734
+						    location   	(6240, 2880)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@990
+							location   	(6240, 2882)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	269
+							justify    	0
+							label      	"validar botón REGRESAR")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D212A3035C"
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @991
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F962034C"
+						    client     	@988
+						    supplier   	@990
+						    vertices   	(list Points
+							(6421, 2624)
+							(6276, 2828))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "validar botón EDITAR" @992
+						    Parent_View 	@734
+						    location   	(6752, 2880)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@992
+							location   	(6752, 2882)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	269
+							justify    	0
+							label      	"validar botón EDITAR")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2129902B0"
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @993
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F96A0158"
+						    client     	@988
+						    supplier   	@992
+						    vertices   	(list Points
+							(6571, 2624)
+							(6715, 2827))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @994
+						    Parent_View 	@734
+						    location   	(6336, 3312)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@994
+							location   	(6336, 3314)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	608
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2094502CF"
+						    width      	714
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object DecisionView "btnRegresar!=null?" @995
+						    Parent_View 	@734
+						    location   	(6208, 3104)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @996
+							Parent_View 	@995
+							location   	(5875, 2957)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	348
+							justify    	1
+							label      	"btnRegresar!=null?"
+							pctDist    	-3.689877
+							height     	85
+							orientation 	1)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D212CF0242"
+						    autoResize 	TRUE)
+						(object TransView "" @997
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F988035B"
+						    client     	@990
+						    supplier   	@995
+						    vertices   	(list Points
+							(6232, 2933)
+							(6208, 3067))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object TransView "" @998
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @999
+							Parent_View 	@998
+							location   	(6288, 3174)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F9910129"
+						    client     	@995
+						    supplier   	@994
+						    vertices   	(list Points
+							(6208, 3141)
+							(6297, 3260))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object TransView "" @1000
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1001
+							Parent_View 	@1000
+							location   	(5971, 3149)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.009105
+							height     	40
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F9C20261"
+						    client     	@995
+						    supplier   	@743
+						    vertices   	(list Points
+							(6133, 3104)
+							(5865, 3112)
+							(5918, 6126)
+							(543, 6074)
+							(543, 332)
+							(4068, 320))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$138" @1002
+						    Parent_View 	@734
+						    location   	(6352, 3536)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21F98E02DE"
+						    autoResize 	TRUE)
+						(object TransView "" @1003
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21F99901B5"
+						    client     	@994
+						    supplier   	@1002
+						    vertices   	(list Points
+							(6339, 3364)
+							(6349, 3494))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "consulta BD en la tabla producto" @1004
+						    Parent_View 	@734
+						    location   	(4576, 3264)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1004
+							location   	(4576, 3265)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	322
+							justify    	0
+							label      	"consulta BD en la tabla producto")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D211550197"
+						    width      	428
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object DecisionView "btnEditar!=null?" @1005
+						    Parent_View 	@734
+						    location   	(6784, 3072)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1006
+							Parent_View 	@1005
+							location   	(6838, 2992)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	2
+							max_width  	300
+							justify    	1
+							label      	"btnEditar!=null?"
+							pctDist    	0.819989
+							height     	28
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D21A900129"
+						    autoResize 	TRUE)
+						(object TransView "" @1007
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FA4A006D"
+						    client     	@992
+						    supplier   	@1005
+						    vertices   	(list Points
+							(6760, 2932)
+							(6784, 3035))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "consulta BD en la tabla producto" @1008
+						    Parent_View 	@734
+						    location   	(6784, 3488)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1008
+							location   	(6784, 3490)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	322
+							justify    	0
+							label      	"consulta BD en la tabla producto")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D211550197"
+						    width      	428
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1009
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1010
+							Parent_View 	@1009
+							location   	(6733, 3192)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.253823
+							height     	51
+							orientation 	1)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FA660196"
+						    client     	@1005
+						    supplier   	@1008
+						    vertices   	(list Points
+							(6784, 3109)
+							(6784, 3436))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @1011
+						    Parent_View 	@734
+						    location   	(7216, 3280)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1011
+							location   	(7216, 3282)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	608
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2094502CF"
+						    width      	714
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1012
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1013
+							Parent_View 	@1012
+							location   	(7016, 3112)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FA610000"
+						    client     	@1005
+						    supplier   	@1011
+						    vertices   	(list Points
+							(6859, 3072)
+							(7126, 3228))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$139" @1014
+						    Parent_View 	@734
+						    location   	(7248, 3472)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FA5E00DB"
+						    autoResize 	TRUE)
+						(object DecisionView "resultado != null?" @1015
+						    Parent_View 	@734
+						    location   	(6784, 3712)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1016
+							Parent_View 	@1015
+							location   	(6822, 3588)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	2
+							max_width  	300
+							justify    	1
+							label      	"resultado != null?"
+							pctDist    	0.415642
+							height     	60
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D214600291"
+						    autoResize 	TRUE)
+						(object TransView "" @1017
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FA7A01A6"
+						    client     	@1008
+						    supplier   	@1015
+						    vertices   	(list Points
+							(6784, 3541)
+							(6784, 3675))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar form <EditProductosCongelados>" @1018
+						    Parent_View 	@734
+						    location   	(6352, 3936)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1018
+							location   	(6352, 3938)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	492
+							justify    	0
+							label      	"mostrar form <EditProductosCongelados>")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21FA800232"
+						    width      	598
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1019
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1020
+							Parent_View 	@1019
+							location   	(6596, 3836)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FAA10252"
+						    client     	@1015
+						    supplier   	@1018
+						    vertices   	(list Points
+							(6709, 3712)
+							(6434, 3884))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @1021
+						    Parent_View 	@734
+						    location   	(7200, 3920)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1021
+							location   	(7200, 3922)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	652
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2118801E5"
+						    width      	758
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1022
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1023
+							Parent_View 	@1022
+							location   	(7010, 3753)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FAB300EA"
+						    client     	@1015
+						    supplier   	@1021
+						    vertices   	(list Points
+							(6859, 3712)
+							(7114, 3868))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$140" @1024
+						    Parent_View 	@734
+						    location   	(7216, 4128)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FAB10010"
+						    autoResize 	TRUE)
+						(object TransView "" @1025
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FAB80177"
+						    client     	@1021
+						    supplier   	@1024
+						    vertices   	(list Points
+							(7204, 3973)
+							(7212, 4085))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "$UNNAMED$141" @1026
+						    Parent_View 	@734
+						    location   	(6544, 4160)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21FB0901C5"
+						    autoResize 	TRUE)
+						(object TransView "" @1027
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB0D0187"
+						    client     	@1018
+						    supplier   	@1026
+						    vertices   	(list Points
+							(6397, 3989)
+							(6544, 4123))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "validar boton CANCELAR" @1028
+						    Parent_View 	@734
+						    location   	(6336, 4416)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1028
+							location   	(6336, 4418)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	269
+							justify    	0
+							label      	"validar boton CANCELAR")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2150D03B9"
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1029
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB520196"
+						    client     	@1026
+						    supplier   	@1028
+						    vertices   	(list Points
+							(6544, 4197)
+							(6385, 4363))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "validar botón GUARDAR CAMBIOS" @1030
+						    Parent_View 	@734
+						    location   	(7040, 4400)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1030
+							location   	(7040, 4402)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	388
+							justify    	0
+							label      	"validar botón GUARDAR CAMBIOS")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D214ED007D"
+						    width      	494
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1031
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB55009C"
+						    client     	@1026
+						    supplier   	@1030
+						    vertices   	(list Points
+							(6619, 4160)
+							(6948, 4347))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "btnCancelar!=null?" @1032
+						    Parent_View 	@734
+						    location   	(6336, 4640)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1033
+							Parent_View 	@1032
+							location   	(6363, 4514)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	348
+							justify    	1
+							label      	"btnCancelar!=null?"
+							pctDist    	0.276380
+							height     	57
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2151A011A"
+						    autoResize 	TRUE)
+						(object TransView "" @1034
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB4C01A6"
+						    client     	@1028
+						    supplier   	@1032
+						    vertices   	(list Points
+							(6336, 4469)
+							(6336, 4603))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"SE HA  CANCELADO LOS CAMBIOS\"" @1035
+						    Parent_View 	@734
+						    location   	(6336, 4928)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1035
+							location   	(6336, 4930)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	682
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "SE HA  CANCELADO LOS CAMBIOS"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2159E00FA"
+						    width      	788
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1036
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1037
+							Parent_View 	@1036
+							location   	(6381, 4777)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB580271"
+						    client     	@1032
+						    supplier   	@1035
+						    vertices   	(list Points
+							(6336, 4677)
+							(6336, 4876))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @1038
+						    Parent_View 	@734
+						    location   	(6656, 5152)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1038
+							location   	(6656, 5154)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	608
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2094502CF"
+						    width      	714
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1039
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1040
+							Parent_View 	@1039
+							location   	(6785, 4748)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB6001E4"
+						    client     	@1032
+						    supplier   	@1038
+						    vertices   	(list Points
+							(6411, 4640)
+							(6832, 4816)
+							(6683, 5099))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$142" @1041
+						    Parent_View 	@734
+						    location   	(6672, 5360)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FB490261"
+						    autoResize 	TRUE)
+						(object TransView "" @1042
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB680187"
+						    client     	@1038
+						    supplier   	@1041
+						    vertices   	(list Points
+							(6660, 5205)
+							(6668, 5317))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "btnGuardar!=null?" @1043
+						    Parent_View 	@734
+						    location   	(7088, 4608)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1044
+							Parent_View 	@1043
+							location   	(7128, 4481)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	340
+							justify    	1
+							label      	"btnGuardar!=null?"
+							pctDist    	0.421218
+							height     	64
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D215EF0204"
+						    autoResize 	TRUE)
+						(object TransView "" @1045
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB7B0119"
+						    client     	@1030
+						    supplier   	@1043
+						    vertices   	(list Points
+							(7052, 4452)
+							(7088, 4571))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "Actualizar BD en la tabla producto" @1046
+						    Parent_View 	@734
+						    location   	(7088, 4944)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1046
+							location   	(7088, 4946)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	322
+							justify    	0
+							label      	"Actualizar BD en la tabla producto")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D216AC037B"
+						    width      	428
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1047
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1048
+							Parent_View 	@1047
+							location   	(7133, 4769)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB86032C"
+						    client     	@1043
+						    supplier   	@1046
+						    vertices   	(list Points
+							(7088, 4645)
+							(7088, 4892))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @1049
+						    Parent_View 	@734
+						    location   	(7584, 4720)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1049
+							location   	(7584, 4722)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	652
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2118801E5"
+						    width      	758
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1050
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1051
+							Parent_View 	@1050
+							location   	(7288, 4596)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB91038A"
+						    client     	@1043
+						    supplier   	@1049
+						    vertices   	(list Points
+							(7163, 4608)
+							(7388, 4668))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$143" @1052
+						    Parent_View 	@734
+						    location   	(7600, 4912)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FB96002F"
+						    autoResize 	TRUE)
+						(object TransView "" @1053
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FB99030D"
+						    client     	@1049
+						    supplier   	@1052
+						    vertices   	(list Points
+							(7588, 4772)
+							(7596, 4870))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "resultado != null?" @1054
+						    Parent_View 	@734
+						    location   	(5008, 4928)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1055
+							Parent_View 	@1054
+							location   	(5017, 4802)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	2
+							max_width  	300
+							justify    	1
+							label      	"resultado != null?"
+							pctDist    	0.094081
+							height     	49
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D214600291"
+						    autoResize 	TRUE)
+						(object TransView "" @1056
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FBC6004E"
+						    client     	@948
+						    supplier   	@1054
+						    vertices   	(list Points
+							(4995, 4724)
+							(5008, 4891))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object TransView "" @1057
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1058
+							Parent_View 	@1057
+							location   	(4790, 5118)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FBC80213"
+						    client     	@1054
+						    supplier   	@956
+						    vertices   	(list Points
+							(4933, 4928)
+							(4585, 5243))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object TransView "" @1059
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1060
+							Parent_View 	@1059
+							location   	(5257, 4994)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FBCD00FA"
+						    client     	@1054
+						    supplier   	@957
+						    vertices   	(list Points
+							(5083, 4928)
+							(5380, 5131))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "resultado != null?" @1061
+						    Parent_View 	@734
+						    location   	(7072, 5312)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1062
+							Parent_View 	@1061
+							location   	(7144, 5138)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	2
+							max_width  	300
+							justify    	1
+							label      	"resultado != null?"
+							pctDist    	0.510295
+							height     	119
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D214600291"
+						    autoResize 	TRUE)
+						(object TransView "" @1063
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FBE302CF"
+						    client     	@1046
+						    supplier   	@1061
+						    vertices   	(list Points
+							(7085, 4997)
+							(7072, 5275))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"CAMBIOS GUARDADOS SATISFACTORIAMENTE\"" @1064
+						    Parent_View 	@734
+						    location   	(6576, 5648)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1064
+							location   	(6576, 5650)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	844
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "CAMBIOS GUARDADOS SATISFACTORIAMENTE"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D21690004E"
+						    width      	950
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1065
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1066
+							Parent_View 	@1065
+							location   	(6847, 5489)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FBFE008D"
+						    client     	@1061
+						    supplier   	@1064
+						    vertices   	(list Points
+							(6997, 5312)
+							(6641, 5596))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$144" @1067
+						    Parent_View 	@734
+						    location   	(6576, 5968)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FC04009C"
+						    autoResize 	TRUE)
+						(object TransView "" @1068
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FC070010"
+						    client     	@1064
+						    supplier   	@1067
+						    vertices   	(list Points
+							(6576, 5701)
+							(6576, 5926))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object NoteView @1069
+						    Parent_View 	@734
+						    location   	(6240, 5824)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1069
+							location   	(6102, 5764)
+							fill_color 	13434879
+							nlines     	2
+							max_width  	240
+							justify    	1
+							label      	"click en btnAceptar")
+						    line_color 	3342489
+						    fill_color 	13434879
+						    width      	300
+						    height     	132)
+						(object AttachView "" @1070
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    client     	@1069
+						    supplier   	@1068
+						    vertices   	(list Points
+							(6390, 5818)
+							(6576, 5813))
+						    line_style 	0)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"NO SE PUDO GUARDAR LOS CAMBIOS \"" @1071
+						    Parent_View 	@734
+						    location   	(7536, 5568)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1071
+							location   	(7536, 5570)
 							fill_color 	13434879
 							anchor_loc 	1
 							nlines     	2
@@ -22040,45 +24632,115 @@
 						    width      	796
 						    annotation 	1
 						    autoResize 	TRUE)
-						(object TransView "" @962
+						(object TransView "" @1072
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1073
+							Parent_View 	@1072
+							location   	(7326, 5377)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
 						    stereotype 	TRUE
 						    line_color 	3342489
-						    quidu      	"54D21C480223"
-						    client     	@955
-						    supplier   	@961
+						    quidu      	"5B21FC1C007D"
+						    client     	@1061
+						    supplier   	@1071
 						    vertices   	(list Points
-							(5067, 4944)
-							(5420, 5164))
+							(7147, 5312)
+							(7456, 5516))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$135" @963
+						(object StateView "EndState" "$UNNAMED$145" @1074
 						    Parent_View 	@734
-						    location   	(5520, 5456)
+						    location   	(7552, 5776)
 						    icon_style 	"Icon"
 						    line_color 	3342489
-						    quidu      	"54D21C4A03D9"
+						    quidu      	"5B21FC200158"
 						    autoResize 	TRUE)
-						(object TransView "" @964
+						(object TransView "" @1075
 						    stereotype 	TRUE
 						    line_color 	3342489
-						    quidu      	"54D21C4D010A"
-						    client     	@961
-						    supplier   	@963
+						    quidu      	"5B21FC2302FE"
+						    client     	@1071
+						    supplier   	@1074
 						    vertices   	(list Points
-							(5507, 5268)
-							(5517, 5414))
+							(7540, 5621)
+							(7548, 5733))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object StateView "EndState" "$UNNAMED$136" @965
+						(object DecisionView "btnBebidas!=null?" @1076
 						    Parent_View 	@734
-						    location   	(4528, 5648)
+						    location   	(8400, 1632)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1077
+							Parent_View 	@1076
+							location   	(8072, 1485)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	317
+							justify    	1
+							label      	"btnBebidas!=null?"
+							pctDist    	-3.636260
+							height     	82
+							orientation 	1)
 						    icon_style 	"Icon"
 						    line_color 	3342489
-						    quidu      	"54D21C500223"
+						    fill_color 	13434879
+						    quidu      	"5B21FC4B0242"
 						    autoResize 	TRUE)
-						(object NoteView @966
+						(object TransView "" @1078
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FC62032C"
+						    client     	@756
+						    supplier   	@1076
+						    vertices   	(list Points
+							(8412, 1444)
+							(8400, 1595))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "consulta BD en la tabla producto" @1079
 						    Parent_View 	@734
-						    location   	(4224, 5488)
+						    location   	(8112, 1920)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -22089,44 +24751,596 @@
 							color      	0
 							default_color 	TRUE)
 						    label      	(object ItemLabel
-							Parent_View 	@966
-							location   	(4086, 5428)
+							Parent_View 	@1079
+							location   	(8112, 1922)
 							fill_color 	13434879
+							anchor_loc 	1
 							nlines     	2
-							max_width  	240
-							justify    	1
-							label      	"click en btnAceptar")
+							max_width  	322
+							justify    	0
+							label      	"consulta BD en la tabla producto")
+						    icon_style 	"Icon"
 						    line_color 	3342489
 						    fill_color 	13434879
-						    width      	300
-						    height     	132)
-						(object Swimlane "" @967
+						    quidu      	"54D211550197"
+						    width      	428
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1080
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1081
+							Parent_View 	@1080
+							location   	(8274, 1776)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FC830232"
+						    client     	@1076
+						    supplier   	@1079
+						    vertices   	(list Points
+							(8325, 1632)
+							(8150, 1867))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @1082
+						    Parent_View 	@734
+						    location   	(8848, 1840)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1082
+							location   	(8848, 1842)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	652
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2118801E5"
+						    width      	758
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1083
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1084
+							Parent_View 	@1083
+							location   	(8637, 1672)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FC85039A"
+						    client     	@1076
+						    supplier   	@1082
+						    vertices   	(list Points
+							(8475, 1632)
+							(8754, 1788))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$146" @1085
+						    Parent_View 	@734
+						    location   	(8864, 2080)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FC7B01A6"
+						    autoResize 	TRUE)
+						(object TransView "" @1086
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FC8101D5"
+						    client     	@1082
+						    supplier   	@1085
+						    vertices   	(list Points
+							(8851, 1892)
+							(8861, 2038))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "resultado!=null?" @1087
+						    Parent_View 	@734
+						    location   	(8064, 2176)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1088
+							Parent_View 	@1087
+							location   	(8134, 2064)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	2
+							max_width  	300
+							justify    	1
+							label      	"resultado!=null?"
+							pctDist    	0.811553
+							height     	64
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D211AD0139"
+						    autoResize 	TRUE)
+						(object TransView "" @1089
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FCA100CB"
+						    client     	@1079
+						    supplier   	@1087
+						    vertices   	(list Points
+							(8101, 1972)
+							(8064, 2139))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"FALLO EN EL SISTEMA\"" @1090
+						    Parent_View 	@734
+						    location   	(7712, 2464)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1090
+							location   	(7712, 2466)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	652
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "FALLO EN EL SISTEMA"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2118801E5"
+						    width      	758
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1091
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1092
+							Parent_View 	@1091
+							location   	(7908, 2324)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FCB0009C"
+						    client     	@1087
+						    supplier   	@1090
+						    vertices   	(list Points
+							(7989, 2176)
+							(7762, 2412))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object StateView "EndState" "$UNNAMED$147" @1093
+						    Parent_View 	@734
+						    location   	(7712, 2672)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FCC30167"
+						    autoResize 	TRUE)
+						(object TransView "" @1094
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FCC501E4"
+						    client     	@1090
+						    supplier   	@1093
+						    vertices   	(list Points
+							(7712, 2517)
+							(7712, 2630))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "$UNNAMED$148" @1095
+						    Parent_View 	@734
+						    location   	(8368, 2592)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21FCCB03A9"
+						    autoResize 	TRUE)
+						(object ActivityStateView "mostrar form <Bebidas>" @1096
+						    Parent_View 	@734
+						    location   	(8352, 2384)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1096
+							location   	(8352, 2386)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	269
+							justify    	0
+							label      	"mostrar form <Bebidas>")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"5B21FCD402BF"
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1097
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1098
+							Parent_View 	@1097
+							location   	(8249, 2222)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FCE000CB"
+						    client     	@1087
+						    supplier   	@1096
+						    vertices   	(list Points
+							(8139, 2176)
+							(8298, 2331))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object TransView "" @1099
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FCE902CF"
+						    client     	@1096
+						    supplier   	@1095
+						    vertices   	(list Points
+							(8356, 2437)
+							(8368, 2555))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "validar botón REGRESAR" @1100
+						    Parent_View 	@734
+						    location   	(8096, 2784)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1100
+							location   	(8096, 2786)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	269
+							justify    	0
+							label      	"validar botón REGRESAR")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D212A3035C"
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1101
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FD160261"
+						    client     	@1095
+						    supplier   	@1100
+						    vertices   	(list Points
+							(8293, 2592)
+							(8149, 2732))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "validar botón EDITAR" @1102
+						    Parent_View 	@734
+						    location   	(8640, 2800)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1102
+							location   	(8640, 2802)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	269
+							justify    	0
+							label      	"validar botón EDITAR")
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2129902B0"
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object TransView "" @1103
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FD1B0232"
+						    client     	@1095
+						    supplier   	@1102
+						    vertices   	(list Points
+							(8443, 2592)
+							(8590, 2748))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "btnRegresar!=null?" @1104
+						    Parent_View 	@734
+						    location   	(8096, 3040)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1105
+							Parent_View 	@1104
+							location   	(7763, 2893)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	348
+							justify    	1
+							label      	"btnRegresar!=null?"
+							pctDist    	-3.689877
+							height     	85
+							orientation 	1)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D212CF0242"
+						    autoResize 	TRUE)
+						(object TransView "" @1106
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FD030232"
+						    client     	@1100
+						    supplier   	@1104
+						    vertices   	(list Points
+							(8096, 2837)
+							(8096, 3003))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object DecisionView "btnEditar!=null?" @1107
+						    Parent_View 	@734
+						    location   	(8640, 3056)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1108
+							Parent_View 	@1107
+							location   	(8695, 2915)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	TRUE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor     	1
+							nlines     	1
+							max_width  	300
+							justify    	1
+							label      	"btnEditar!=null?"
+							pctDist    	0.497283
+							height     	83
+							orientation 	0)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D21A900129"
+						    autoResize 	TRUE)
+						(object TransView "" @1109
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FD11032C"
+						    client     	@1102
+						    supplier   	@1107
+						    vertices   	(list Points
+							(8640, 2853)
+							(8640, 3019))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object ActivityStateView "mostrar panel <mensajeSistema> \"ACCESO DENEGADO\"" @1110
+						    Parent_View 	@734
+						    location   	(8224, 3280)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object ItemLabel
+							Parent_View 	@1110
+							location   	(8224, 3282)
+							fill_color 	13434879
+							anchor_loc 	1
+							nlines     	2
+							max_width  	608
+							justify    	0
+							label      	
+|mostrar panel <mensajeSistema> "ACCESO DENEGADO"
+							)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    fill_color 	13434879
+						    quidu      	"54D2094502CF"
+						    width      	714
+						    annotation 	1
+						    autoResize 	TRUE)
+						(object StateView "EndState" "$UNNAMED$149" @1111
+						    Parent_View 	@734
+						    location   	(8208, 3504)
+						    icon_style 	"Icon"
+						    line_color 	3342489
+						    quidu      	"5B21FD2D032C"
+						    autoResize 	TRUE)
+						(object Swimlane "" @1112
 						    location   	(25756, 0)
 						    line_color 	3342489
 						    width      	450)
-						(object TransView "" @968
+						(object TransView "" @1113
 						    stereotype 	TRUE
 						    line_color 	3342489
-						    quidu      	"54D21C5B0214"
-						    client     	@958
-						    supplier   	@965
+						    quidu      	"5B21FD330167"
+						    client     	@1110
+						    supplier   	@1111
 						    vertices   	(list Points
-							(4528, 5349)
-							(4528, 5606))
+							(8220, 3333)
+							(8211, 3462))
 						    line_style 	0
 						    x_offset   	FALSE)
-						(object AttachView "" @969
-						    stereotype 	TRUE
-						    line_color 	3342489
-						    client     	@966
-						    supplier   	@968
-						    vertices   	(list Points
-							(4374, 5482)
-							(4528, 5477))
-						    line_style 	0)
-						(object NoteView @970
-						    Parent_View 	@734
-						    location   	(1936, 5520)
+						(object TransView "" @1114
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -22136,27 +25350,82 @@
 							strike     	FALSE
 							color      	0
 							default_color 	TRUE)
-						    label      	(object ItemLabel
-							Parent_View 	@970
-							location   	(1798, 5460)
-							fill_color 	13434879
-							nlines     	2
-							max_width  	240
-							justify    	1
-							label      	"click en btnAceptar")
-						    line_color 	3342489
-						    fill_color 	13434879
-						    width      	300
-						    height     	132)
-						(object AttachView "" @971
+						    label      	(object SegLabel @1115
+							Parent_View 	@1114
+							location   	(8181, 3129)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"No"
+							pctDist    	0.500000
+							height     	45
+							orientation 	0)
 						    stereotype 	TRUE
 						    line_color 	3342489
-						    client     	@970
-						    supplier   	@863
+						    quidu      	"5B21FD3501D5"
+						    client     	@1104
+						    supplier   	@1110
 						    vertices   	(list Points
-							(2086, 5514)
-							(2295, 5509))
-						    line_style 	0)))))))
+							(8096, 3077)
+							(8191, 3228))
+						    line_style 	0
+						    x_offset   	FALSE)
+						(object TransView "" @1116
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    label      	(object SegLabel @1117
+							Parent_View 	@1116
+							location   	(7757, 3106)
+							font       	(object Font
+							    size       	9
+							    face       	"Arial"
+							    bold       	FALSE
+							    italics    	FALSE
+							    underline  	FALSE
+							    strike     	FALSE
+							    color      	0
+							    default_color 	TRUE)
+							anchor_loc 	1
+							nlines     	1
+							max_width  	450
+							justify    	0
+							label      	"Si"
+							pctDist    	0.007633
+							height     	62
+							orientation 	1)
+						    stereotype 	TRUE
+						    line_color 	3342489
+						    quidu      	"5B21FDA400CB"
+						    client     	@1104
+						    supplier   	@743
+						    vertices   	(list Points
+							(8021, 3040)
+							(7817, 3039)
+							(7860, 4428)
+							(8211, 4438)
+							(8240, 6400)
+							(19066, 6299)
+							(19004, 303)
+							(4475, 319))
+						    line_style 	0
+						    x_offset   	FALSE)))))))
 			logical_presentations 	(list unit_reference_list))
 		    (object Class_Category "modulo administracion sistema"
 			quid       	"5B21F99403A9"
@@ -22181,7 +25450,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo administracion sistema::gestionar datos usuario" @972
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo administracion sistema::gestionar datos usuario" @1118
 				location   	(784, 1696)
 				font       	(object Font
 				    size       	9
@@ -22193,7 +25462,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@972
+				    Parent_View 	@1118
 				    location   	(784, 1834)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22205,7 +25474,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F9710252"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::administrador" @973
+			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::administrador" @1119
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -22220,7 +25489,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@973
+				    Parent_View 	@1119
 				    location   	(272, 1856)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22233,7 +25502,7 @@
 				quidu      	"5B21F964037B"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$6" @974
+			    (object AssociationViewNew "$UNNAMED$6" @1120
 				location   	(501, 1696)
 				font       	(object Font
 				    size       	9
@@ -22248,31 +25517,31 @@
 				line_color 	3342489
 				quidu      	"5B21F98401D5"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$7" @975
-					Parent_View 	@974
+				    (object RoleView "$UNNAMED$7" @1121
+					Parent_View 	@1120
 					location   	(117, 176)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F98501D5"
-					client     	@974
-					supplier   	@972
+					client     	@1120
+					supplier   	@1118
 					vertices   	(list Points
 					    (501, 1696)
 					    (674, 1696))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$8" @976
-					Parent_View 	@974
+				    (object RoleView "$UNNAMED$8" @1122
+					Parent_View 	@1120
 					location   	(117, 176)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F98501D7"
-					client     	@974
-					supplier   	@973
+					client     	@1120
+					supplier   	@1119
 					vertices   	(list Points
 					    (501, 1696)
 					    (329, 1696))
 					line_style 	0)))
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad" @977
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir informe control de calidad" @1123
 				location   	(2176, 144)
 				font       	(object Font
 				    size       	9
@@ -22284,7 +25553,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@977
+				    Parent_View 	@1123
 				    location   	(2176, 282)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22296,7 +25565,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F7CB031D"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::cocinero" @978
+			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::cocinero" @1124
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -22311,7 +25580,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@978
+				    Parent_View 	@1124
 				    location   	(1584, 304)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22324,7 +25593,7 @@
 				quidu      	"5B21FAEC009C"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$15" @979
+			    (object AssociationViewNew "$UNNAMED$15" @1125
 				location   	(1853, 144)
 				font       	(object Font
 				    size       	9
@@ -22339,31 +25608,31 @@
 				line_color 	3342489
 				quidu      	"5BC6C4BA003E"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$16" @980
-					Parent_View 	@979
+				    (object RoleView "$UNNAMED$16" @1126
+					Parent_View 	@1125
 					location   	(429, -64)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C4BC0119"
-					client     	@979
-					supplier   	@977
+					client     	@1125
+					supplier   	@1123
 					vertices   	(list Points
 					    (1853, 144)
 					    (2066, 144))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$17" @981
-					Parent_View 	@979
+				    (object RoleView "$UNNAMED$17" @1127
+					Parent_View 	@1125
 					location   	(429, -64)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C4BC011B"
-					client     	@979
-					supplier   	@978
+					client     	@1125
+					supplier   	@1124
 					vertices   	(list Points
 					    (1853, 144)
 					    (1641, 144))
 					line_style 	0)))
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir informe de almacen" @982
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir informe de almacen" @1128
 				location   	(2288, 1248)
 				font       	(object Font
 				    size       	9
@@ -22375,7 +25644,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@982
+				    Parent_View 	@1128
 				    location   	(2288, 1386)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22387,7 +25656,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F8EF0232"
 				height     	118)
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado" @983
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir un informe inventario actualizado" @1129
 				location   	(2288, 816)
 				font       	(object Font
 				    size       	9
@@ -22399,7 +25668,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@983
+				    Parent_View 	@1129
 				    location   	(2288, 954)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22411,7 +25680,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F7230148"
 				height     	118)
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir solicitud de abastecimiento" @984
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::emitir solicitud de abastecimiento" @1130
 				location   	(2240, 512)
 				font       	(object Font
 				    size       	9
@@ -22423,7 +25692,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@984
+				    Parent_View 	@1130
 				    location   	(2240, 650)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22435,7 +25704,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F8720261"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::encargado de almacen" @985
+			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::encargado de almacen" @1131
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -22450,7 +25719,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@985
+				    Parent_View 	@1131
 				    location   	(1520, 1088)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22463,7 +25732,7 @@
 				quidu      	"5B21FB2500AC"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$12" @986
+			    (object AssociationViewNew "$UNNAMED$12" @1132
 				location   	(1877, 1076)
 				font       	(object Font
 				    size       	9
@@ -22478,31 +25747,31 @@
 				line_color 	3342489
 				quidu      	"5B21FB3E02AF"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$13" @987
-					Parent_View 	@986
+				    (object RoleView "$UNNAMED$13" @1133
+					Parent_View 	@1132
 					location   	(357, -76)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21FB3F0281"
-					client     	@986
-					supplier   	@982
+					client     	@1132
+					supplier   	@1128
 					vertices   	(list Points
 					    (1877, 1076)
 					    (2177, 1200))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$14" @988
-					Parent_View 	@986
+				    (object RoleView "$UNNAMED$14" @1134
+					Parent_View 	@1132
 					location   	(357, -76)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21FB3F0283"
-					client     	@986
-					supplier   	@985
+					client     	@1132
+					supplier   	@1131
 					vertices   	(list Points
 					    (1877, 1076)
 					    (1577, 951))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$18" @989
+			    (object AssociationViewNew "$UNNAMED$18" @1135
 				location   	(1877, 872)
 				font       	(object Font
 				    size       	9
@@ -22517,31 +25786,31 @@
 				line_color 	3342489
 				quidu      	"5BC6C4E30252"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$19" @990
-					Parent_View 	@989
+				    (object RoleView "$UNNAMED$19" @1136
+					Parent_View 	@1135
 					location   	(613, -184)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C4E40129"
-					client     	@989
-					supplier   	@983
+					client     	@1135
+					supplier   	@1129
 					vertices   	(list Points
 					    (1877, 872)
-					    (2177, 829))
+					    (2177, 827))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$20" @991
-					Parent_View 	@989
+				    (object RoleView "$UNNAMED$20" @1137
+					Parent_View 	@1135
 					location   	(613, -184)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C4E4012B"
-					client     	@989
-					supplier   	@985
+					client     	@1135
+					supplier   	@1131
 					vertices   	(list Points
 					    (1877, 872)
-					    (1577, 915))
+					    (1577, 916))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$21" @992
+			    (object AssociationViewNew "$UNNAMED$21" @1138
 				location   	(1768, 782)
 				font       	(object Font
 				    size       	9
@@ -22556,31 +25825,31 @@
 				line_color 	3342489
 				quidu      	"5BC6C4E700DB"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$22" @993
-					Parent_View 	@992
+				    (object RoleView "$UNNAMED$22" @1139
+					Parent_View 	@1138
 					location   	(504, -274)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C4E7034C"
-					client     	@992
-					supplier   	@984
+					client     	@1138
+					supplier   	@1130
 					vertices   	(list Points
 					    (1768, 782)
 					    (1958, 673))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$23" @994
-					Parent_View 	@992
+				    (object RoleView "$UNNAMED$23" @1140
+					Parent_View 	@1138
 					location   	(504, -274)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C4E7034E"
-					client     	@992
-					supplier   	@985
+					client     	@1138
+					supplier   	@1131
 					vertices   	(list Points
 					    (1768, 782)
 					    (1577, 892))
 					line_style 	0)))
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::actualizar clave" @995
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::actualizar clave" @1141
 				location   	(544, 160)
 				font       	(object Font
 				    size       	9
@@ -22592,7 +25861,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@995
+				    Parent_View 	@1141
 				    location   	(544, 298)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22604,7 +25873,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F84B002F"
 				height     	118)
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::autenticar usuario sistema" @996
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::autenticar usuario sistema" @1142
 				location   	(320, 832)
 				font       	(object Font
 				    size       	9
@@ -22616,7 +25885,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@996
+				    Parent_View 	@1142
 				    location   	(320, 970)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22628,7 +25897,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F8370261"
 				height     	118)
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::reestablecer clave" @997
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::reestablecer clave" @1143
 				location   	(464, 1216)
 				font       	(object Font
 				    size       	9
@@ -22640,7 +25909,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@997
+				    Parent_View 	@1143
 				    location   	(464, 1354)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22652,7 +25921,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F84C0187"
 				height     	118)
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::registrar usuario" @998
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo de seguridad::registrar usuario" @1144
 				location   	(320, 496)
 				font       	(object Font
 				    size       	9
@@ -22664,7 +25933,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@998
+				    Parent_View 	@1144
 				    location   	(320, 634)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22676,7 +25945,7 @@
 				fill_color 	13434879
 				quidu      	"5BC6C5FD01F4"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::usuario sistema" @999
+			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::usuario sistema" @1145
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -22691,11 +25960,11 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@999
+				    Parent_View 	@1145
 				    location   	(1040, 816)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	339
+				    max_width  	325
 				    justify    	0
 				    label      	"usuario sistema")
 				icon       	"Actor"
@@ -22704,7 +25973,7 @@
 				quidu      	"5B21F82D032C"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$0" @1000
+			    (object AssociationViewNew "$UNNAMED$0" @1146
 				location   	(826, 441)
 				font       	(object Font
 				    size       	9
@@ -22719,31 +25988,31 @@
 				line_color 	3342489
 				quidu      	"5B21F866036B"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$1" @1001
-					Parent_View 	@1000
+				    (object RoleView "$UNNAMED$1" @1147
+					Parent_View 	@1146
 					location   	(-22, -247)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F8670261"
-					client     	@1000
-					supplier   	@995
+					client     	@1146
+					supplier   	@1141
 					vertices   	(list Points
 					    (826, 441)
 					    (706, 321))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$2" @1002
-					Parent_View 	@1000
+				    (object RoleView "$UNNAMED$2" @1148
+					Parent_View 	@1146
 					location   	(-22, -247)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F8670263"
-					client     	@1000
-					supplier   	@999
+					client     	@1146
+					supplier   	@1145
 					vertices   	(list Points
 					    (826, 441)
 					    (981, 598))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$9" @1003
+			    (object AssociationViewNew "$UNNAMED$9" @1149
 				location   	(704, 734)
 				font       	(object Font
 				    size       	9
@@ -22758,31 +26027,31 @@
 				line_color 	3342489
 				quidu      	"5B21F869005E"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$10" @1004
-					Parent_View 	@1003
+				    (object RoleView "$UNNAMED$10" @1150
+					Parent_View 	@1149
 					location   	(-144, 46)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F86902AF"
-					client     	@1003
-					supplier   	@996
+					client     	@1149
+					supplier   	@1142
 					vertices   	(list Points
 					    (704, 734)
 					    (428, 800))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$11" @1005
-					Parent_View 	@1003
+				    (object RoleView "$UNNAMED$11" @1151
+					Parent_View 	@1149
 					location   	(-144, 46)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F86902B1"
-					client     	@1003
-					supplier   	@999
+					client     	@1149
+					supplier   	@1145
 					vertices   	(list Points
 					    (704, 734)
 					    (980, 667))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$3" @1006
+			    (object AssociationViewNew "$UNNAMED$3" @1152
 				location   	(736, 949)
 				font       	(object Font
 				    size       	9
@@ -22797,31 +26066,31 @@
 				line_color 	3342489
 				quidu      	"5B21F86C007D"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$4" @1007
-					Parent_View 	@1006
+				    (object RoleView "$UNNAMED$4" @1153
+					Parent_View 	@1152
 					location   	(-112, 261)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F86D005E"
-					client     	@1006
-					supplier   	@997
+					client     	@1152
+					supplier   	@1143
 					vertices   	(list Points
 					    (736, 949)
 					    (516, 1158))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$5" @1008
-					Parent_View 	@1006
+				    (object RoleView "$UNNAMED$5" @1154
+					Parent_View 	@1152
 					location   	(-112, 261)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5B21F86D0060"
-					client     	@1006
-					supplier   	@999
+					client     	@1152
+					supplier   	@1145
 					vertices   	(list Points
 					    (736, 949)
 					    (981, 709))
 					line_style 	0)))
-			    (object AssociationViewNew "$UNNAMED$24" @1009
+			    (object AssociationViewNew "$UNNAMED$24" @1155
 				location   	(704, 578)
 				font       	(object Font
 				    size       	9
@@ -22836,31 +26105,31 @@
 				line_color 	3342489
 				quidu      	"5BC6C70902FE"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$25" @1010
-					Parent_View 	@1009
+				    (object RoleView "$UNNAMED$25" @1156
+					Parent_View 	@1155
 					location   	(-96, -94)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C70A0119"
-					client     	@1009
-					supplier   	@998
+					client     	@1155
+					supplier   	@1144
 					vertices   	(list Points
 					    (704, 578)
 					    (640, 562))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$26" @1011
-					Parent_View 	@1009
+				    (object RoleView "$UNNAMED$26" @1157
+					Parent_View 	@1155
 					location   	(-96, -94)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"5BC6C70A011B"
-					client     	@1009
-					supplier   	@999
+					client     	@1155
+					supplier   	@1145
 					vertices   	(list Points
 					    (704, 578)
 					    (980, 640))
 					line_style 	0)))
-			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::recibir productos y documento de confirmacion" @1012
+			    (object UseCaseView "Use Case View::Use-Case Model::modulo logistica::recibir productos y documento de confirmacion" @1158
 				location   	(2320, 1728)
 				font       	(object Font
 				    size       	9
@@ -22872,7 +26141,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1012
+				    Parent_View 	@1158
 				    location   	(2320, 1866)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22884,7 +26153,7 @@
 				fill_color 	13434879
 				quidu      	"5B21F8AE038A"
 				height     	118)
-			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::gerente" @1013
+			    (object ClassView "Class" "Use Case View::Use-Case Model::Actors::gerente" @1159
 				ShowCompartmentStereotypes 	TRUE
 				IncludeAttribute 	TRUE
 				IncludeOperation 	TRUE
@@ -22899,7 +26168,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1013
+				    Parent_View 	@1159
 				    location   	(1696, 1888)
 				    anchor_loc 	1
 				    nlines     	2
@@ -22912,7 +26181,7 @@
 				quidu      	"561A0CA303C8"
 				annotation 	8
 				autoResize 	TRUE)
-			    (object AssociationViewNew "$UNNAMED$27" @1014
+			    (object AssociationViewNew "$UNNAMED$27" @1160
 				location   	(1981, 1728)
 				font       	(object Font
 				    size       	9
@@ -22927,26 +26196,26 @@
 				line_color 	3342489
 				quidu      	"561A0CAC005D"
 				roleview_list 	(list RoleViews
-				    (object RoleView "$UNNAMED$28" @1015
-					Parent_View 	@1014
+				    (object RoleView "$UNNAMED$28" @1161
+					Parent_View 	@1160
 					location   	(285, -16)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"561A0CAD01F4"
-					client     	@1014
-					supplier   	@1012
+					client     	@1160
+					supplier   	@1158
 					vertices   	(list Points
 					    (1981, 1728)
 					    (2210, 1728))
 					line_style 	0)
-				    (object RoleView "$UNNAMED$29" @1016
-					Parent_View 	@1014
+				    (object RoleView "$UNNAMED$29" @1162
+					Parent_View 	@1160
 					location   	(285, -16)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"561A0CAD01F6"
-					client     	@1014
-					supplier   	@1013
+					client     	@1160
+					supplier   	@1159
 					vertices   	(list Points
 					    (1981, 1728)
 					    (1753, 1728))
@@ -22964,7 +26233,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Use Case View::Use-Case Model::modulo de seguridad" @1017
+		    (object CategoryView "Use Case View::Use-Case Model::modulo de seguridad" @1163
 			location   	(512, 464)
 			font       	(object Font
 			    size       	9
@@ -22976,7 +26245,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1017
+			    Parent_View 	@1163
 			    location   	(332, 380)
 			    fill_color 	13434879
 			    nlines     	2
@@ -22989,7 +26258,7 @@
 			quidu      	"5B21F92000CB"
 			width      	372
 			height     	180)
-		    (object CategoryView "Use Case View::Use-Case Model::modulo logistica" @1018
+		    (object CategoryView "Use Case View::Use-Case Model::modulo logistica" @1164
 			location   	(1312, 464)
 			font       	(object Font
 			    size       	9
@@ -23001,7 +26270,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1018
+			    Parent_View 	@1164
 			    location   	(1132, 380)
 			    fill_color 	13434879
 			    nlines     	2
@@ -23014,7 +26283,7 @@
 			quidu      	"5B21F93A039A"
 			width      	372
 			height     	180)
-		    (object CategoryView "Use Case View::Use-Case Model::modulo administracion sistema" @1019
+		    (object CategoryView "Use Case View::Use-Case Model::modulo administracion sistema" @1165
 			location   	(512, 912)
 			font       	(object Font
 			    size       	9
@@ -23026,7 +26295,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1019
+			    Parent_View 	@1165
 			    location   	(292, 828)
 			    fill_color 	13434879
 			    nlines     	2
@@ -23039,22 +26308,22 @@
 			quidu      	"5B21F99403A9"
 			width      	452
 			height     	180)
-		    (object ImportView "" @1020
+		    (object ImportView "" @1166
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"5B21FA760010"
-			client     	@1018
-			supplier   	@1017
+			client     	@1164
+			supplier   	@1163
 			vertices   	(list Points
 			    (1125, 464)
 			    (698, 464))
 			line_style 	0)
-		    (object ImportView "" @1021
+		    (object ImportView "" @1167
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"5B21FA79001F"
-			client     	@1019
-			supplier   	@1017
+			client     	@1165
+			supplier   	@1163
 			vertices   	(list Points
 			    (512, 767)
 			    (512, 554))
@@ -23218,9 +26487,9 @@
 					
 					stereotype 	"use-case realization"
 					logical_models 	(list unit_reference_list
-					    (object Mechanism @1022
+					    (object Mechanism @1168
 						logical_models 	(list unit_reference_list))
-					    (object Mechanism @1023
+					    (object Mechanism @1169
 						logical_models 	(list unit_reference_list)))
 					logical_presentations 	(list unit_reference_list
 					    (object ClassDiagram "<Use Case Name> -  Realize Dependencies"
@@ -23244,7 +26513,7 @@
 						origin_y   	0
 						items      	(list diagram_item_list))
 					    (object InteractionDiagram "<Use Case Name> -  Basic Flow"
-						mechanism_ref 	@1022
+						mechanism_ref 	@1168
 						quid       	"35081E3603A2"
 						title      	"<Use Case Name> -  Basic Flow"
 						zoom       	100
@@ -23254,7 +26523,7 @@
 						origin_y   	0
 						items      	(list diagram_item_list))
 					    (object InteractionDiagram "<Use Case Name> -  <Flow Type>"
-						mechanism_ref 	@1023
+						mechanism_ref 	@1169
 						quid       	"3540A0B901AE"
 						title      	"<Use Case Name> -  <Flow Type>"
 						zoom       	100
@@ -23274,7 +26543,7 @@
 					origin_x   	0
 					origin_y   	0
 					items      	(list diagram_item_list
-					    (object NoteView @1024
+					    (object NoteView @1170
 						location   	(704, 144)
 						font       	(object Font
 						    size       	9
@@ -23286,7 +26555,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1024
+						    Parent_View 	@1170
 						    location   	(38, 25)
 						    fill_color 	13434879
 						    nlines     	5
@@ -23300,7 +26569,7 @@
 						fill_color 	13434879
 						width      	1356
 						height     	250)
-					    (object UseCaseView "Logical View::Design Model::Use-Case Realizations::<Use-Case Name>::<Use-Case Name>" @1025
+					    (object UseCaseView "Logical View::Design Model::Use-Case Realizations::<Use-Case Name>::<Use-Case Name>" @1171
 						location   	(608, 960)
 						font       	(object Font
 						    size       	9
@@ -23312,7 +26581,7 @@
 						    color      	0
 						    default_color 	TRUE)
 						label      	(object ItemLabel
-						    Parent_View 	@1025
+						    Parent_View 	@1171
 						    location   	(608, 1148)
 						    anchor_loc 	1
 						    nlines     	2
@@ -23320,7 +26589,7 @@
 						    justify    	0
 						    label      	"<Use-Case Name>")
 						stereotype 	(object ItemLabel
-						    Parent_View 	@1025
+						    Parent_View 	@1171
 						    location   	(608, 1078)
 						    anchor     	10
 						    anchor_loc 	1
@@ -23348,16 +26617,16 @@
 				quid       	"35DB3CB002BC"
 				documentation 	"This is a sub-process or thread within the <name of process of which this thread is a sub-process> process which handles <enter a description of what this thread does>.  A separate thread was chosen for this to be able to <enter the rationale for creating a separate thread>."
 				stereotype 	"thread")
-			    (object Association "$UNNAMED$137"
+			    (object Association "$UNNAMED$150"
 				quid       	"35DB3E72017C"
 				roles      	(list role_list
-				    (object Role "$UNNAMED$138"
+				    (object Role "$UNNAMED$151"
 					quid       	"35DB3E73005A"
 					supplier   	"Logical View::Design Model::Process View::<Process Name>"
 					quidu      	"35DB3C8302D0"
 					is_navigable 	TRUE
 					is_aggregate 	TRUE)
-				    (object Role "$UNNAMED$139"
+				    (object Role "$UNNAMED$152"
 					quid       	"35DB3E730096"
 					supplier   	"Logical View::Design Model::Process View::<Thread Name>"
 					quidu      	"35DB3CB002BC"
@@ -23374,7 +26643,7 @@
 				origin_x   	0
 				origin_y   	0
 				items      	(list diagram_item_list
-				    (object ClassView "Class" "Logical View::Design Model::Process View::<Process Name>" @1026
+				    (object ClassView "Class" "Logical View::Design Model::Process View::<Process Name>" @1172
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -23389,7 +26658,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@1026
+					    Parent_View 	@1172
 					    location   	(122, 436)
 					    fill_color 	13434879
 					    nlines     	1
@@ -23397,7 +26666,7 @@
 					    justify    	0
 					    label      	"<Process Name>")
 					stereotype 	(object ItemLabel
-					    Parent_View 	@1026
+					    Parent_View 	@1172
 					    location   	(122, 389)
 					    fill_color 	13434879
 					    anchor     	10
@@ -23413,7 +26682,7 @@
 					height     	172
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Design Model::Process View::<Thread Name>" @1027
+				    (object ClassView "Class" "Logical View::Design Model::Process View::<Thread Name>" @1173
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -23428,7 +26697,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@1027
+					    Parent_View 	@1173
 					    location   	(740, 436)
 					    fill_color 	13434879
 					    nlines     	1
@@ -23436,7 +26705,7 @@
 					    justify    	0
 					    label      	"<Thread Name>")
 					stereotype 	(object ItemLabel
-					    Parent_View 	@1027
+					    Parent_View 	@1173
 					    location   	(740, 389)
 					    fill_color 	13434879
 					    anchor     	10
@@ -23452,32 +26721,32 @@
 					height     	172
 					annotation 	8
 					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$137" @1028
+				    (object AssociationViewNew "$UNNAMED$150" @1174
 					location   	(596, 464)
 					stereotype 	TRUE
 					line_color 	3342489
 					quidu      	"35DB3E72017C"
 					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$138" @1029
-						Parent_View 	@1028
+					    (object RoleView "$UNNAMED$151" @1175
+						Parent_View 	@1174
 						location   	(-300, 0)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"35DB3E73005A"
-						client     	@1028
-						supplier   	@1026
+						client     	@1174
+						supplier   	@1172
 						vertices   	(list Points
 						    (596, 464)
 						    (463, 464))
 						line_style 	0)
-					    (object RoleView "$UNNAMED$139" @1030
-						Parent_View 	@1028
+					    (object RoleView "$UNNAMED$152" @1176
+						Parent_View 	@1174
 						location   	(-300, 0)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"35DB3E730096"
-						client     	@1028
-						supplier   	@1027
+						client     	@1174
+						supplier   	@1173
 						vertices   	(list Points
 						    (596, 464)
 						    (730, 464))
@@ -23493,7 +26762,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @1031
+			    (object NoteView @1177
 				location   	(672, 304)
 				font       	(object Font
 				    size       	9
@@ -23505,7 +26774,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1031
+				    Parent_View 	@1177
 				    location   	(28, 19)
 				    fill_color 	13434879
 				    nlines     	13
@@ -23529,7 +26798,7 @@
 				fill_color 	13434879
 				width      	1313
 				height     	582)
-			    (object NoteView @1032
+			    (object NoteView @1178
 				location   	(1696, 160)
 				font       	(object Font
 				    size       	9
@@ -23541,7 +26810,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1032
+				    Parent_View 	@1178
 				    location   	(1358, 29)
 				    fill_color 	13434879
 				    nlines     	5
@@ -23577,7 +26846,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @1033
+			    (object NoteView @1179
 				location   	(576, 256)
 				font       	(object Font
 				    size       	9
@@ -23589,7 +26858,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1033
+				    Parent_View 	@1179
 				    location   	(44, 31)
 				    fill_color 	13434879
 				    nlines     	9
@@ -23609,7 +26878,7 @@
 				fill_color 	13434879
 				width      	1088
 				height     	463)
-			    (object NoteView @1034
+			    (object NoteView @1180
 				location   	(1520, 176)
 				font       	(object Font
 				    size       	9
@@ -23621,7 +26890,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1034
+				    Parent_View 	@1180
 				    location   	(1182, 45)
 				    fill_color 	13434879
 				    nlines     	5
@@ -23659,7 +26928,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @1035
+		    (object NoteView @1181
 			location   	(1376, 480)
 			font       	(object Font
 			    size       	9
@@ -23671,7 +26940,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1035
+			    Parent_View 	@1181
 			    location   	(729, 192)
 			    fill_color 	13434879
 			    nlines     	14
@@ -23731,7 +27000,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @1036
+			    (object NoteView @1182
 				location   	(624, 160)
 				font       	(object Font
 				    size       	9
@@ -23743,7 +27012,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@1036
+				    Parent_View 	@1182
 				    location   	(21, 26)
 				    fill_color 	13434879
 				    nlines     	5
@@ -23770,7 +27039,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object SubSysView "Component View::Implementation Model" @1037
+		    (object SubSysView "Component View::Implementation Model" @1183
 			location   	(736, 800)
 			font       	(object Font
 			    size       	9
@@ -23782,7 +27051,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1037
+			    Parent_View 	@1183
 			    location   	(552, 713)
 			    fill_color 	13434879
 			    nlines     	2
@@ -23845,7 +27114,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @1038
+		    (object ProcessorView "<processor name>" @1184
 			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
@@ -23857,7 +27126,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1038
+			    Parent_View 	@1184
 			    location   	(276, 900)
 			    nlines     	2
 			    max_width  	400
@@ -23868,7 +27137,7 @@
 			width      	475
 			height     	381
 			annotation 	3)
-		    (object DeviceView "<device name>" @1039
+		    (object DeviceView "<device name>" @1185
 			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
@@ -23880,7 +27149,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1039
+			    Parent_View 	@1185
 			    location   	(867, 950)
 			    nlines     	2
 			    max_width  	275
@@ -23891,16 +27160,16 @@
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object ConnectionView "" @1040
+		    (object ConnectionView "" @1186
 			stereotype 	TRUE
 			quidu      	"34DBBD4B008C"
-			client     	@1038
-			supplier   	@1039
+			client     	@1184
+			supplier   	@1185
 			vertices   	(list Points
 			    (718, 1056)
 			    (865, 1056))
 			line_style 	0)
-		    (object NoteView @1041
+		    (object NoteView @1187
 			location   	(816, 304)
 			font       	(object Font
 			    size       	9
@@ -23912,7 +27181,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1041
+			    Parent_View 	@1187
 			    location   	(38, 29)
 			    fill_color 	13434879
 			    nlines     	11
